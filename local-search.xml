@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>年中总结</title>
+    <link href="/2022/06/11/ret-06/"/>
+    <url>/2022/06/11/ret-06/</url>
+    
+    <content type="html"><![CDATA[<p>上一次更新博客是在三月初，没想到一晃就是三个月。</p><h2 id="疫情"><a href="#疫情" class="headerlink" title="疫情"></a>疫情</h2><p>刚过完年回公司上班，都已经想好五一去哪里玩了，没想到遇到上海疫情大封闭，三月十五号关到六月一号解封，感觉整个人都不好了，这大抵就是摸鱼的理由吧。中间封闭的时候天天比较烦躁，快递啥的也不通，于是在学习新知识方面确实也停滞了。</p><h2 id="收获"><a href="#收获" class="headerlink" title="收获"></a>收获</h2><ul><li>减肥</li></ul><p>古人云：塞翁失马焉知非福，被关两个月也收获了很多，比如开始是封闭的时候，没有存够食物，加上自己也想减肥，封闭前 130 斤的体重，解封变成了 110 斤，原来肚子只有一块，现在可以隐约看到 8 块腹肌了（<del>解封一个星期胖了两斤了，呜呜呜，8 块腹肌不要走</del>）</p><ul><li>做饭</li></ul><p>小区封闭期间也点不了外卖，只能自己做饭吃，我自己见证了自己，从一个厨房小白变成了能饭给自己吃了（<del>就是味道差了点</del>），刚开始连生抽和老抽的区别都不知道，也算是习得技能一件，厨艺 + 1</p><ul><li>健身</li></ul><p>因为天天宅家里也出不去，当时想着得在家里锻炼一下，坚持了一个月，能模糊的看到 8 块腹肌，结果五月一号后就摆烂了，本来说是解封了以后要每周跑步的，我自己都信了😡</p><ul><li>戒烟</li></ul><p>从去年六月戒烟，除了过年回家和朋友团聚那几天抽了几包，到今年六月基本算是成功戒烟一年，开心😀，戒烟的秘诀就是不要买烟，没有烟自然就不抽，哈哈哈哈（同事白给的烟还是会抽一下的😂）</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><blockquote><p>​    2022 年展望</p><ul><li>减肥，身体健康捏</li><li>投资正收益</li><li>养一只猫咪</li><li>keep learn</li></ul></blockquote><p>根据去年的展望，减肥算是成功了，投资正收益好像还是有点远，大 A 的镰刀还是有点猛🤡，养一只猫可能得最近搬家才能养，目前还没实现，算是今年上半年 kpi 勉强达标吧。</p><p>下半年展望</p><ul><li>继续戒烟</li><li>保持每周运动，1 km 跑成绩进入 4分</li><li>保持 8 块腹肌（<del>感觉够呛</del>）</li><li>养一只猫咪</li><li>keep learn</li></ul><p>最后上半年疫情影响了太多人，直到今天上海快递也没恢复过来，悲伤的事已不想再回忆，希望上海早日恢复正常。🌹</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>生活</tag>
+      
+      <tag>感悟</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>技术文档的写作规范</title>
+    <link href="/2022/03/03/write-guide/"/>
+    <url>/2022/03/03/write-guide/</url>
+    
+    <content type="html"><![CDATA[<h1 id="技术文档的写作规范"><a href="#技术文档的写作规范" class="headerlink" title="技术文档的写作规范"></a>技术文档的写作规范</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote><p> 迫于自己文档写的一般，抽时间写一个总结，学习优秀文档编写经验</p></blockquote><h2 id="个人实战总结"><a href="#个人实战总结" class="headerlink" title="个人实战总结"></a>个人实战总结</h2><ul><li>参照标准文档编写。</li><li>编写完重读一遍，看看结构是否合理。</li><li>学会精炼语言，减少废话。</li><li>考虑阅读者是谁来决定怎么写</li><li>文档可以分为四个部分考量，术语规范；问题描述；客户需求；详尽描述。</li></ul><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>标题分为四级。</p><ul><li>一级标题：文章的标题</li><li>二级标题：文章主要部分的大标题</li><li>三级标题：二级标题下面一级的小标题</li><li>四级标题：三级标题下面某一方面的小标题</li></ul><h2 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h2><h3 id="字间距"><a href="#字间距" class="headerlink" title="字间距"></a>字间距</h3><p>（1）全角中文字符与半角英文字符之间，应有一个半角空格。</p><p>（2）全角中文字符与半角阿拉伯数字之间，有没有半角空格都可，但必须保证风格统一，不能两种风格混杂。</p><p>（3）半角的百分号，视同阿拉伯数字。</p><p>（4）半角英文字符和半角阿拉伯数字，与全角标点符号之间不留空格。</p><h3 id="句子"><a href="#句子" class="headerlink" title="句子"></a>句子</h3><p>（1）避免使用长句。</p><p>（2）尽量使用简单句和并列句，避免使用复合句。</p><p>（3）同样一个意思，尽量使用肯定句表达，不使用否定句表达。</p><h3 id="风格"><a href="#风格" class="headerlink" title="风格"></a>风格</h3><p>（1）尽量不使用被动语态，改为使用主动语态。</p><p>（2）不使用非正式的语言风格。</p><p>（3）不使用冷僻、生造或者文言文的词语，而要使用现代汉语的常用表达方式。</p><p>（4）名词前不要使用过多的形容词。</p><h3 id="英文"><a href="#英文" class="headerlink" title="英文"></a>英文</h3><p>（1）外文缩写可以使用半角圆点(<code>.</code>)表示缩写。</p><p>（2）外文缩写可以使用半角圆点(<code>.</code>)表示缩写。</p><p>（3）表示中文时，英文省略号（<code>...</code>）应改为中文省略号（<code>⋯⋯</code>）。</p><p>（4）英文书名或电影名改用中文表达时，双引号应改为书名号。</p><p>（5）第一次出现英文词汇时，在括号中给出中文标注。此后再次出现时，直接使用英文缩写即可。</p><p>（6）专有名词中每个词第一个字母均应大写，非专有名词则不需要大写。</p><h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><h3 id="原则"><a href="#原则" class="headerlink" title="原则"></a>原则</h3><p>（1）一个段落只能有一个主题，或一个中心句子。</p><p>（2）段落的中心句子放在段首，对全段内容进行概述。后面陈述的句子为核心句服务。</p><p>（3）一个段落的长度不能超过七行，最佳段落长度小于等于四行。</p><p>（4）段落之间使用一个空行隔开。</p><p>（5）段落开头不要留出空白字符。</p><h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>引用第三方内容时，应注明出处。</p><h2 id="标点符号"><a href="#标点符号" class="headerlink" title="标点符号"></a>标点符号</h2><h3 id="原则-1"><a href="#原则-1" class="headerlink" title="原则"></a>原则</h3><ul><li>中文语句的标点符号，均应该采取全角符号，这样可以保证视觉的一致。</li><li>如果整句为英文，则该句使用英文/半角标点。</li><li>句号、问号、叹号、逗号、顿号、分号和冒号不得出现在一行之首。</li><li>应该使用平静的语气叙述，尽量避免使用感叹号<code>！</code>。</li></ul><h2 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h2><p>写作逻辑很重要，推荐一些书籍。</p><ul><li>《魏斯曼演讲圣经》</li><li>《金字塔结构》</li><li>《写给大家看的设计书》</li></ul><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul><li><p><a href="https://developers.google.com/style/">Google Developer Documentation Style Guide</a></p></li><li><p><a href="http://www.ruanyifeng.com/blog/2016/10/document_style_guide.html">阮一峰 中文技术文档的写作规范</a></p></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>感悟</tag>
+      
+      <tag>技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>新年快乐</title>
+    <link href="/2022/01/06/2021total/"/>
+    <url>/2022/01/06/2021total/</url>
+    
+    <content type="html"><![CDATA[<h2 id="2021年总结"><a href="#2021年总结" class="headerlink" title="2021年总结"></a>2021年总结</h2><ul><li>果不其然，还是变胖了，当事人，后悔.jpg，就是非常的后悔.jpg</li><li>技术上的提升只能说是自己不是很满意😂，<del>后面一定好好钻研技术（确信）</del></li><li>养一只猫的心愿还是没有达成，属于是大失败事件了</li><li>啊，作为 A 股基民，第一年成功负收益，😭😭，总是要交学费的。</li></ul><h2 id="2022年展望"><a href="#2022年展望" class="headerlink" title="2022年展望"></a>2022年展望</h2><ul><li>减肥，身体健康捏</li><li>投资正收益</li><li>养一只猫咪</li><li>keep learn</li></ul><p>ps: 上海疫情搞得行程码又带星了，能不能过年回家成了个问题😭</p><p>最后，米娜桑，2022，happy new year😃</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>生活</tag>
+      
+      <tag>感悟</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>jackJson 相关配置</title>
+    <link href="/2021/11/18/jsoninfo-0/"/>
+    <url>/2021/11/18/jsoninfo-0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>好久没记录了，记录一下 JacksonJson 常用的注解配置吧</p><h3 id="注解"><a href="#注解" class="headerlink" title="注解"></a>注解</h3><p>有时候返回对象里有 null 值或者为 “” 值的，不想返回这种字段可以在对象上用上这个注解</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-meta">@JsonInclude(JsonInclude.Include.NON_NULL)</span><br></code></pre></td></tr></table></figure><h3 id="Bean-配置"><a href="#Bean-配置" class="headerlink" title="Bean 配置"></a>Bean 配置</h3><p>想整个项目统一处理的话，配置一个 Configuration 类</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">JacksonConfig</span> </span>&#123;<br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-meta">@Primary</span><br>    <span class="hljs-meta">@ConditionalOnMissingBean(ObjectMapper.class)</span><br>    <span class="hljs-function"><span class="hljs-keyword">public</span> ObjectMapper <span class="hljs-title">jacksonObjectMapper</span><span class="hljs-params">(Jackson2ObjectMapperBuilder builder)</span> </span>&#123;<br>        ObjectMapper objectMapper = builder.createXmlMapper(<span class="hljs-keyword">false</span>).build();<br>        <span class="hljs-comment">// 通过该方法对mapper对象进行设置，所有序列化的对象都将按改规则进行系列化</span><br>        <span class="hljs-comment">// Include.Include.ALWAYS 默认</span><br>        <span class="hljs-comment">// Include.NON_DEFAULT 属性为默认值不序列化</span><br>        <span class="hljs-comment">// Include.NON_EMPTY 属性为 空（&quot;&quot;） 或者为 NULL 都不序列化，则返回的json是没有这个字段的。这样对移动端会更省流量</span><br>        <span class="hljs-comment">// Include.NON_NULL 属性为NULL 不序列化,就是为null的字段不参加序列化</span><br>        objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);<br><br>         <span class="hljs-comment">//字段保留，将null值转为&quot;&quot;</span><br>        objectMapper.getSerializerProvider().setNullValueSerializer(<span class="hljs-keyword">new</span> JsonSerializer&lt;Object&gt;()<br>        &#123;<br>            <span class="hljs-meta">@Override</span><br>            <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">serialize</span><span class="hljs-params">(Object o, JsonGenerator jsonGenerator,</span></span><br><span class="hljs-params"><span class="hljs-function">                                  SerializerProvider serializerProvider)</span></span><br><span class="hljs-function">                    <span class="hljs-keyword">throws</span> IOException, JsonProcessingException</span><br><span class="hljs-function">            </span>&#123;<br>                jsonGenerator.writeString(<span class="hljs-string">&quot;&quot;</span>);<br>            &#125;<br>        &#125;);<br>        <span class="hljs-keyword">return</span> objectMapper;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>lambda 和 匿名内部类的区别</title>
+    <link href="/2021/11/09/lambda/"/>
+    <url>/2021/11/09/lambda/</url>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Lambda表达式似乎只是为了简化匿名内部类书写，这看起来仅仅通过语法糖在编译阶段把所有的Lambda表达式替换成匿名内部类就可以了。但实时并非如此。在JVM层面，Lambda表达式和匿名内部类有着明显的差别。</p><h2 id="匿名内部类实现"><a href="#匿名内部类实现" class="headerlink" title="匿名内部类实现"></a>匿名内部类实现</h2><p>匿名内部类仍然是一个类，编译后会产生一个 class 文件</p><h2 id="Lambda表达式实现"><a href="#Lambda表达式实现" class="headerlink" title="Lambda表达式实现"></a>Lambda表达式实现</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MainLambda</span> </span>&#123;<br>  ...<br>  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(java.lang.String[])</span></span>;<br>    Code:<br>       <span class="hljs-number">0</span>: <span class="hljs-keyword">new</span>           #<span class="hljs-number">2</span>                  <span class="hljs-comment">// class java/lang/Thread</span><br>       <span class="hljs-number">3</span>: dup<br>       <span class="hljs-number">4</span>: invokedynamic #<span class="hljs-number">3</span>,  <span class="hljs-number">0</span>              <span class="hljs-comment">// InvokeDynamic #0:run:()Ljava/lang/Runnable; /*使用invokedynamic指令调用*/</span><br>       <span class="hljs-number">9</span>: invokespecial #<span class="hljs-number">4</span>                  <span class="hljs-comment">// Method java/lang/Thread.&quot;&lt;init&gt;&quot;:(Ljava/lang/Runnable;)V</span><br>      <span class="hljs-number">12</span>: invokevirtual #<span class="hljs-number">5</span>                  <span class="hljs-comment">// Method java/lang/Thread.start:()V</span><br>      <span class="hljs-number">15</span>: <span class="hljs-keyword">return</span><br><br>  <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> lambda$main$<span class="hljs-number">0</span>();  <span class="hljs-comment">/*Lambda表达式被封装成主类的私有方法*/</span><br>    Code:<br>       <span class="hljs-number">0</span>: getstatic     #<span class="hljs-number">6</span>                  <span class="hljs-comment">// Field java/lang/System.out:Ljava/io/PrintStream;</span><br>       <span class="hljs-number">3</span>: ldc           #<span class="hljs-number">7</span>                  <span class="hljs-comment">// String Lambda Thread run()</span><br>       <span class="hljs-number">5</span>: invokevirtual #<span class="hljs-number">8</span>                  <span class="hljs-comment">// Method java/io/PrintStream.println:(Ljava/lang/String;)V</span><br>       <span class="hljs-number">8</span>: <span class="hljs-keyword">return</span><br>&#125;<br><br></code></pre></td></tr></table></figure><p>反编译代码可以看出来Lambda表达式被封装成了主类的一个私有方法，并通过<em>invokedynamic</em>指令进行调用。</p><h2 id="注意-this"><a href="#注意-this" class="headerlink" title="注意 this"></a>注意 this</h2><p>这样 lambda 里使用 this 和在类外面使用是一致的</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>国庆快乐</title>
+    <link href="/2021/10/11/2021-10-11-think/"/>
+    <url>/2021/10/11/2021-10-11-think/</url>
+    
+    <content type="html"><![CDATA[<h2 id="国庆快乐"><a href="#国庆快乐" class="headerlink" title="国庆快乐"></a>国庆快乐</h2><blockquote><p>哈哈哈哈，😊，国庆过完才想起来祝福一下，果然假期都是短暂的，这周要连上七天班，😥<br>博客半个月也没写了，属于是狠狠的给自己放了个假了。</p><p>啊啊啊啊，这周重新恢复学习状态🤡🤡🤡（<del>自己都信了</del>）</p></blockquote>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>生活</tag>
+      
+      <tag>感悟</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Q3，7-9月生活总结</title>
+    <link href="/2021/09/29/newThink/"/>
+    <url>/2021/09/29/newThink/</url>
+    
+    <content type="html"><![CDATA[<h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><pre><code class="hljs">搬家了，离公司倒是近了不少，通勤一天一个小时，很满足。最近运动也少了，变胖不少呜呜呜呜；</code></pre><span id="more"></span><!-- more --><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><ul><li><p>测试驱动开发</p></li><li><p>Effective java</p></li><li><p>重构 改善及有代码的设计</p></li><li><p>java 8 实战（公司刚好有，就看了）</p><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs armasm">这几个月主要看的编码规范相关的书，还行编码时注意点更多了些，中间有个同事给别的同事 code_review 还能吵架的，<br>我直呼害怕，给别人 <span class="hljs-meta">code</span> review 都不敢提意见了，😅<br></code></pre></td></tr></table></figure><p>技术相关学习</p></li><li><p>python</p><blockquote><p>本来大学学了听多，不过工作一直没咋用，都忘完了，呜呜呜，又捡起来学了几天，不过最近中秋节一放假，又变成了纯纯的懒狗了😥</p></blockquote></li><li><p>go</p></li></ul><blockquote><p>啊，这么火的语言肯定要稍微学习一下，不过只是因为上个月有个前人留下来的 go 语言写的项目，花了半天把 go 相关语法学习了一下，确实比 java 优雅一些，不过也有挺恶心人的地方，</p><p>无穷多的 if err != nil 也是有点恶心，等后面工作要用的时候再深入学习吧，主要 go 语言和 java 对我来说功能重复了</p></blockquote><h2 id="Q4-期望"><a href="#Q4-期望" class="headerlink" title="Q4 期望"></a>Q4 期望</h2><h3 id="生活-1"><a href="#生活-1" class="headerlink" title="生活"></a>生活</h3><ul><li>减肥 10 斤（不想再胖了）</li><li>调整作息，减少熬夜（<del>我自己都不信</del>）</li></ul><h3 id="学习-1"><a href="#学习-1" class="headerlink" title="学习"></a>学习</h3><ul><li>多参与开源项目</li><li>python 学习深入</li><li>技术书籍保持一个月两本阅读量</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>生活</tag>
+      
+      <tag>感悟</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>parapell</title>
+    <link href="/2021/09/17/parapell/"/>
+    <url>/2021/09/17/parapell/</url>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>偶尔发现的小问题</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">/**</span><br><span class="hljs-comment"> * 建立三个线程A、B、C 轮流线程打印ABC 简易版，</span><br><span class="hljs-comment"> */</span><br><span class="hljs-meta">@Slf4j</span><br><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ABC1</span> </span>&#123;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">volatile</span> Integer num = <span class="hljs-number">0</span>;<br><br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>&#123;<br>        Object mutex = <span class="hljs-keyword">new</span> Object();<br><br>        Thread a = <span class="hljs-keyword">new</span> Thread(() -&gt; &#123;<br>            <span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>) &#123;<br>                log.info(<span class="hljs-string">&quot;a进入循环&quot;</span>);<br>                <span class="hljs-keyword">synchronized</span> (mutex) &#123;<br>                    log.info(<span class="hljs-string">&quot;a抢到锁&quot;</span>);<br>                    <span class="hljs-keyword">try</span> &#123;<br>                        Thread.sleep(<span class="hljs-number">3000</span>);<br>                    &#125; <span class="hljs-keyword">catch</span> (InterruptedException e) &#123;<br>                        e.printStackTrace();<br>                    &#125;<br>                    <span class="hljs-keyword">if</span> (num % <span class="hljs-number">3</span> == <span class="hljs-number">0</span>) &#123;<br>                        log.info(<span class="hljs-string">&quot;a&quot;</span>);<br>                        num++;<br>                    &#125;<br><br>                &#125;<br>            &#125;<br>        &#125;);<br>        Thread b = <span class="hljs-keyword">new</span> Thread(() -&gt; &#123;<br>            <span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>) &#123;<br>                log.info(<span class="hljs-string">&quot;b进入循环&quot;</span>);<br>                <span class="hljs-keyword">synchronized</span> (mutex) &#123;<br>                    log.info(<span class="hljs-string">&quot;b抢到锁&quot;</span>);<br>                    <span class="hljs-keyword">try</span> &#123;<br>                        Thread.sleep(<span class="hljs-number">3000</span>);<br>                    &#125; <span class="hljs-keyword">catch</span> (InterruptedException e) &#123;<br>                        e.printStackTrace();<br>                    &#125;<br>                    <span class="hljs-keyword">if</span> (num % <span class="hljs-number">3</span> == <span class="hljs-number">1</span>) &#123;<br>                        log.info(<span class="hljs-string">&quot;b&quot;</span>);<br>                        num++;<br>                    &#125;<br>                &#125;<br>            &#125;<br>        &#125;);<br><br>        Thread c = <span class="hljs-keyword">new</span> Thread(() -&gt; &#123;<br>            <span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>) &#123;<br>                <span class="hljs-comment">//这里 c 线程不打印日志</span><br>                <span class="hljs-keyword">synchronized</span> (mutex) &#123;<br>                    <span class="hljs-keyword">try</span> &#123;<br>                        Thread.sleep(<span class="hljs-number">3000</span>);<br>                    &#125; <span class="hljs-keyword">catch</span> (InterruptedException e) &#123;<br>                        e.printStackTrace();<br>                    &#125;<br>                    <span class="hljs-keyword">if</span> (num % <span class="hljs-number">3</span> == <span class="hljs-number">2</span>) &#123;<br>                        log.info(<span class="hljs-string">&quot;c&quot;</span>);<br>                        num++;<br>                    &#125;<br>                &#125;<br>            &#125;<br>        &#125;);<br>        a.start();<br>        b.start();<br>        c.start();<br>    &#125;<br><br>&#125;<br></code></pre></td></tr></table></figure><p>当时记得一句话，多线程里 sleep 一下能看到很多异常情况哈哈，😂<br>果然，这里 c 线程就少了两句 log 而已 ，抢到锁的概率大大提高，就有可能出现一两分钟 c 线程一直拿到锁<br>，不过不sleep的话概率会小很多，刚好从这里可以看出，synchronized  配合 wait 和 notify 的话，这种情况就可以避免了，<br>减少无用线程的空转</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+      <tag>并发</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>float</title>
+    <link href="/2021/09/10/float/"/>
+    <url>/2021/09/10/float/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>今天没事的时候突然想起来一个经典问题，计算机里小数如何保存的</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">float</span> b = <span class="hljs-number">0.70000000f</span>;<br><span class="hljs-keyword">float</span> c = <span class="hljs-number">0.69999999f</span>;<br>System.out.println(<span class="hljs-number">1</span>-<span class="hljs-number">0.9</span>);<br>System.out.println(b==c);<br></code></pre></td></tr></table></figure><p>结果为</p><blockquote><p>0.09999999999999998<br>true</p></blockquote><p>这些现象就和计算机如何保存小数的密不可分，哈哈😂😂，<br>首先是十进制小数如何转换为二进制</p><span id="more"></span><p>十进制小数转换成二进制小数采用”乘2取整，顺序排列”法。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs java">如：<span class="hljs-number">0.625</span>=（<span class="hljs-number">0.101</span>）B<br><br><span class="hljs-number">0.625</span>*<span class="hljs-number">2</span>=<span class="hljs-number">1.25</span>======取出整数部分<span class="hljs-number">1</span><br><span class="hljs-number">0.25</span>*<span class="hljs-number">2</span>=<span class="hljs-number">0.5</span>========取出整数部分<span class="hljs-number">0</span><br><span class="hljs-number">0.5</span>*<span class="hljs-number">2</span>=<span class="hljs-number">1</span>==========取出整数部分<span class="hljs-number">1</span><br>再如：<span class="hljs-number">0.7</span>=（<span class="hljs-number">0.1</span> <span class="hljs-number">0110</span> <span class="hljs-number">0110.</span>..）B<br><br><span class="hljs-number">0.7</span>*<span class="hljs-number">2</span>=<span class="hljs-number">1.4</span>========取出整数部分<span class="hljs-number">1</span><br><span class="hljs-number">0.4</span>*<span class="hljs-number">2</span>=<span class="hljs-number">0.8</span>========取出整数部分<span class="hljs-number">0</span><br><span class="hljs-number">0.8</span>*<span class="hljs-number">2</span>=<span class="hljs-number">1.6</span>========取出整数部分<span class="hljs-number">1</span><br><span class="hljs-number">0.6</span>*<span class="hljs-number">2</span>=<span class="hljs-number">1.2</span>========取出整数部分<span class="hljs-number">1</span><br><span class="hljs-number">0.2</span>*<span class="hljs-number">2</span>=<span class="hljs-number">0.4</span>========取出整数部分<span class="hljs-number">0</span><br><span class="hljs-number">0.4</span>*<span class="hljs-number">2</span>=<span class="hljs-number">0.8</span>========取出整数部分<span class="hljs-number">0</span><br><span class="hljs-number">0.8</span>*<span class="hljs-number">2</span>=<span class="hljs-number">1.6</span>========取出整数部分<span class="hljs-number">1</span><br><span class="hljs-number">0.6</span>*<span class="hljs-number">2</span>=<span class="hljs-number">1.2</span>========取出整数部分<span class="hljs-number">1</span><br><span class="hljs-number">0.2</span>*<span class="hljs-number">2</span>=<span class="hljs-number">0.4</span>========取出整数部分<span class="hljs-number">0</span><br></code></pre></td></tr></table></figure><p>就像十进制不能表示 1/3 这样，1/10 二进制也不能完美表示，<br>再精度范围外就会有数据丢失，所以1 - 0.9 得到的确实上面的数据</p><p>再来看看float存储方式</p><p>首先我们知道常用科学计数法是将所有的数字转换成(±)a.b x 1 0 c 10^c10<br>c<br>的形式，其中a的范围是1到9共9个整数，b是小数点后的所有数字，c是10的指数。而计算机中存储的都是二进制数据，所以float存储的数字都要先转化成(±)a.b x 2 c 2^c2<br>c<br>，由于二进制中最大的数字就是1，所以表示法可以写成(±)1.b x 2 c 2^c2<br>c<br>的形式，float要想存储小数就只需要存储(±)，b和c就可以了。</p><p>float的存储正是将4字节32位划分为了3部分来分别存储正负号，小数部分和指数部分的：</p><p>Sign（1位）：用来表示浮点数是正数还是负数，0表示正数，1表示负数。<br>Exponent（8位）：指数部分。即上文提到数字c，但是这里不是直接存储c，为了同时表示正负指数以及他们的大小顺序，这里实际存储的是c+127。<br>Mantissa（23位）：尾数部分。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>21年阅读书籍总结（待续）</title>
+    <link href="/2021/09/09/book/"/>
+    <url>/2021/09/09/book/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>今年看了不少书，也没总结，忘了从哪里看的一句话</p><blockquote><p>读书不总结 就等于没读</p></blockquote><p>所以为了没有白读书来总结一下 😂😂😂</p><h3 id="技术相关"><a href="#技术相关" class="headerlink" title="技术相关"></a>技术相关</h3><ul><li><p>《人月神话》</p><blockquote><p>印象最深的是这句： 当一份工作因具有连续性的限制而不可切分时，就算投入再多的人力，也不会对时程有所影响，生小孩就是需要九个月，你叫多少个妈一起生都一样，<br>软件工程就是像这样的工作，因为它必须调试，而调试本身就具有连续性的本质。</p></blockquote></li><li><p>《重构 改善既有代码的设计》</p><blockquote><p>总结：看到有坏味道的代码就立刻着手重构，否则破窗效应马上就会在整个项目里应验😂</p></blockquote></li><li><p>《人件》</p><blockquote><p>总结： 一本将管理的书，理解团队之间用于沟通合作成本还是很高的，不过目前好像我这个 level 暂时还用不到这些管理知识😒</p></blockquote></li><li><p>《测试驱动开发》</p><blockquote><p>了解了一下从先测试着手开发，对重构和代码质量确实可以提供很多好处，可惜项目中工期要求，一直难于实践 TDD 开发</p></blockquote></li></ul><p>其他很多书忘了，下次有机会再补齐吧🚀</p><blockquote><p>10月19日 更新 </p><p>准备接下来看这几本 《代码大全》《你的灯亮着吗》《现代操作系统》(强推)，《深入理解计算机系统》《程序员修炼之道:从小工到专家》<br>《 计算机程序的构造和解释》编程珠玑 《失控》<br>《TCPIP详解三部曲》、《图解HTTP》、《图解TCPIP》<br>哈哈，好像挺多的，慢慢看吧😂</p></blockquote><blockquote><p>12月22日 更新</p><p>最近一个人顶一个项目有点忙，后面闲下来准备看看周大佬的 《凤凰架构》</p></blockquote>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>书籍</tag>
+      
+      <tag>总结</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>code review注意事项</title>
+    <link href="/2021/09/09/code-review/"/>
+    <url>/2021/09/09/code-review/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>似乎有段时间没写博客了，没事总结一下编码规范，和code review一般需要注意的地方<br>。</p><blockquote><p>你的代码应该是写给下一个开发者的情书。</p></blockquote><p>看到这句话我深以为然，不过对面写不完的需求只能是尽力而为保持代码质量了，😂😂😂</p><span id="more"></span><h3 id="常规检查"><a href="#常规检查" class="headerlink" title="常规检查"></a>常规检查</h3><ul><li>目录设置是否合理、模块划分是否清晰、代码结构是否满足“高內聚、松耦合”?</li><li>是否遵循经典的设计原则和设计思想(SOLD、DRY、KSS、YAGN、LOD等)?</li><li>设计模式是否应用得当?是否有过度设计?</li><li>代码是否容易扩展?如果要添加新功能,是否容易实现?</li><li>代码是否可以复用?是否可以复用已有的项目代码或类库?是否有重复造轮子?</li><li>代码是否容易测试?单元测试是否全面覆盖各种正常和异常的情况?</li><li>代码是否易读?是否符合编码规范(比如命名和注释是否恰当、代码风格是否一致等)?</li></ul><h3 id="业务需求角度"><a href="#业务需求角度" class="headerlink" title="业务需求角度"></a>业务需求角度</h3><ul><li>代码是否实现了预期的业务需求?</li><li>逻辑是否正确?是否处理了各种异常情况?</li><li>日志打印是否得当?是否方便 debug排查问题?</li><li>接口是否易用?是否支持幂等、事务等?</li><li>代码是否存在并发问题?是否线程安全?</li><li>性能是否有优化空间,比如,SQL、算法是否可以优化?</li><li>是否有安全漏洞?比如,输入输出校验是否全面?</li></ul><h3 id="可读性，扩展性，性能的取舍"><a href="#可读性，扩展性，性能的取舍" class="headerlink" title="可读性，扩展性，性能的取舍"></a>可读性，扩展性，性能的取舍</h3><p>对于一般项目，我个人认为 扩展性 &gt; 可读性 &gt; 性能， 性能其实一般出现瓶颈的时候我们在特地优化即可</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+      <tag>设计</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>resttemplate</title>
+    <link href="/2021/08/23/resttemplate/"/>
+    <url>/2021/08/23/resttemplate/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Apache-httpclient-并发请求时的注意设置"><a href="#Apache-httpclient-并发请求时的注意设置" class="headerlink" title="Apache httpclient 并发请求时的注意设置"></a>Apache httpclient 并发请求时的注意设置</h1><p>还是前几天并发请求的需求，当时发现测试里直接开十个线程请求，比项目里请求要快上一倍，</p><p>俺直呼不对劲不对劲，哈哈哈哈，第一时间想到用的 restTemplate 底层用到了线程池，但是并没有十个同时进行，所以排队请求，耗时多了一倍，</p><p>后面发现项目里 restTemplate 用的 Apache httpclient，</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> ClientHttpRequestFactory <span class="hljs-title">buildClientHttpRequestFactory</span><span class="hljs-params">()</span></span>&#123;<br>       ...<br>       PoolingHttpClientConnectionManager phccm = <span class="hljs-keyword">new</span> PoolingHttpClientConnectionManager(registry);<br>    <span class="hljs-comment">//  这里是线程池里所有线程数</span><br>       phccm.setMaxTotal(<span class="hljs-number">200</span>);<br>       <span class="hljs-comment">//phccm.setDefaultMaxPerRoute(10);  之前没有加上</span><br>        CloseableHttpClient httpClient = HttpClients.custom().setSSLSocketFactory(socketFactory).setConnectionManager(phccm).setConnectionManagerShared(<span class="hljs-keyword">true</span>).build();<br>       factory.setHttpClient(httpClient);<br>       <span class="hljs-keyword">return</span> factory;<br>   &#125;<br></code></pre></td></tr></table></figure><p>DefaultMaxPerRoute 意思是某一个服务每次能并行接收的请求数量，点进源码一看，默认并行请求数量为  2，怪不得项目里这么慢。哈哈哈，后面就加上了<code>phccm.setDefaultMaxPerRoute(10); </code>，再进行测试，耗时少了一倍，心满意足🤣</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>parallel</title>
+    <link href="/2021/08/19/parallel/"/>
+    <url>/2021/08/19/parallel/</url>
+    
+    <content type="html"><![CDATA[<h1 id="并行stream流使用注意"><a href="#并行stream流使用注意" class="headerlink" title="并行stream流使用注意"></a>并行stream流使用注意</h1><p>​    今天项目中有个地方需要并发调用别的接口，同事推荐我用 stream 的 parallel 流去进行并行操作，使用起来确实很简单，但是使用 stream 的 parallel 流 项目所有流操作都是共享该池，当频繁的用于阻塞型任务（IO流：http请求等）时会导致整个项目卡顿，所以说parallelStream只适用于cpu密集型的任务。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs java">ForkJoinPool forkJoinPool = <span class="hljs-keyword">new</span> ForkJoinPool(<span class="hljs-number">3</span>);<br>        forkJoinPool.submit(() -&gt; &#123;<br>            Stream.of(firstRange).parallel().forEach((number) -&gt; &#123;<br>                <span class="hljs-keyword">try</span> &#123;<br>                    System.out.println(<span class="hljs-string">&quot;任务1的线程:&quot;</span> + Thread.currentThread().getName());<br>                    <span class="hljs-comment">// do something slow</span><br>                    Thread.sleep(<span class="hljs-number">5000</span>);<br>                &#125; <span class="hljs-keyword">catch</span> (InterruptedException e) &#123;<br>                &#125;<br>            &#125;);<br>        &#125;);<br></code></pre></td></tr></table></figure><p>这样指定的话就没问题了，不过最后还是使用了  CompletableFuture 配合自定义线程池去使用，主要是 CompletableFuture 更灵活哈哈哈哈哈😏</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>springMvc参数下划线驼峰解析</title>
+    <link href="/2021/08/16/jsonInfo/"/>
+    <url>/2021/08/16/jsonInfo/</url>
+    
+    <content type="html"><![CDATA[<h1 id="springMvc-参数下划线驼峰解析"><a href="#springMvc-参数下划线驼峰解析" class="headerlink" title="springMvc 参数下划线驼峰解析"></a>springMvc 参数下划线驼峰解析</h1><p>今天突然有个需求，有个接口对应请求参数都是下划线为分割点，</p><p>虽然有 <code>@JsonProperty</code> 可以去一一对应，但是整个类弄下来就很麻烦，</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-meta">@JsonNaming(<span class="hljs-params">value = PropertyNamingStrategy.SnakeCaseStrategy.<span class="hljs-keyword">class</span></span>)</span><br></code></pre></td></tr></table></figure><p>后来找到这个，在实体类上配好，就不用一一去对应了，还是很方便的😂</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>idea</title>
+    <link href="/2021/08/10/idea/"/>
+    <url>/2021/08/10/idea/</url>
+    
+    <content type="html"><![CDATA[<h2 id="idea冷门知识"><a href="#idea冷门知识" class="headerlink" title="idea冷门知识"></a>idea冷门知识</h2><p>今天突然意外的发现了 idea 的冷门知识，😂</p><p>当一个类里的方法很多的时候，可能希望能分类查看</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">// region foo</span><br><span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">doSomthing</span><span class="hljs-params">()</span> </span>&#123;<br>    System.out.println(<span class="hljs-number">123</span>);<br>    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;&quot;</span>;<br>&#125;<br><span class="hljs-comment">// endregion foo</span><br></code></pre></td></tr></table></figure><p>这样子写，ctrl + F12 就可以看到如下效果</p><p><img src="https://files.catbox.moe/xtwmjs.png"></p><p>还是个挺实用的冷门知识 ，哈哈哈</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>idea</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>getIntLength</title>
+    <link href="/2021/07/23/getIntLength/"/>
+    <url>/2021/07/23/getIntLength/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>没错，又是看到 Integer 里的代码，</p><p>如何求一个 int length多长🤔🤔</p><span id="more"></span><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">final</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> [] sizeTable = &#123; <span class="hljs-number">9</span>, <span class="hljs-number">99</span>, <span class="hljs-number">999</span>, <span class="hljs-number">9999</span>, <span class="hljs-number">99999</span>, <span class="hljs-number">999999</span>, <span class="hljs-number">9999999</span>,<br>                                      <span class="hljs-number">99999999</span>, <span class="hljs-number">999999999</span>, Integer.MAX_VALUE &#125;;<br><br><span class="hljs-comment">// Requires positive x</span><br><span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> <span class="hljs-title">stringSize</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span> </span>&#123;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i=<span class="hljs-number">0</span>; ; i++)<br>        <span class="hljs-keyword">if</span> (x &lt;= sizeTable[i])<br>            <span class="hljs-keyword">return</span> i+<span class="hljs-number">1</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p>没想到有时候开发 jdk 大神们的思路又是如此的奇清😂😂</p><h3 id="32进制内求进制字符串"><a href="#32进制内求进制字符串" class="headerlink" title="32进制内求进制字符串"></a>32进制内求进制字符串</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><code class="hljs java"><br> <span class="hljs-comment">/**</span><br><span class="hljs-comment">     * All possible chars for representing a number as a String</span><br><span class="hljs-comment">     */</span><br>    <span class="hljs-keyword">final</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">char</span>[] digits = &#123;<br>        <span class="hljs-string">&#x27;0&#x27;</span> , <span class="hljs-string">&#x27;1&#x27;</span> , <span class="hljs-string">&#x27;2&#x27;</span> , <span class="hljs-string">&#x27;3&#x27;</span> , <span class="hljs-string">&#x27;4&#x27;</span> , <span class="hljs-string">&#x27;5&#x27;</span> ,<br>        <span class="hljs-string">&#x27;6&#x27;</span> , <span class="hljs-string">&#x27;7&#x27;</span> , <span class="hljs-string">&#x27;8&#x27;</span> , <span class="hljs-string">&#x27;9&#x27;</span> , <span class="hljs-string">&#x27;a&#x27;</span> , <span class="hljs-string">&#x27;b&#x27;</span> ,<br>        <span class="hljs-string">&#x27;c&#x27;</span> , <span class="hljs-string">&#x27;d&#x27;</span> , <span class="hljs-string">&#x27;e&#x27;</span> , <span class="hljs-string">&#x27;f&#x27;</span> , <span class="hljs-string">&#x27;g&#x27;</span> , <span class="hljs-string">&#x27;h&#x27;</span> ,<br>        <span class="hljs-string">&#x27;i&#x27;</span> , <span class="hljs-string">&#x27;j&#x27;</span> , <span class="hljs-string">&#x27;k&#x27;</span> , <span class="hljs-string">&#x27;l&#x27;</span> , <span class="hljs-string">&#x27;m&#x27;</span> , <span class="hljs-string">&#x27;n&#x27;</span> ,<br>        <span class="hljs-string">&#x27;o&#x27;</span> , <span class="hljs-string">&#x27;p&#x27;</span> , <span class="hljs-string">&#x27;q&#x27;</span> , <span class="hljs-string">&#x27;r&#x27;</span> , <span class="hljs-string">&#x27;s&#x27;</span> , <span class="hljs-string">&#x27;t&#x27;</span> ,<br>        <span class="hljs-string">&#x27;u&#x27;</span> , <span class="hljs-string">&#x27;v&#x27;</span> , <span class="hljs-string">&#x27;w&#x27;</span> , <span class="hljs-string">&#x27;x&#x27;</span> , <span class="hljs-string">&#x27;y&#x27;</span> , <span class="hljs-string">&#x27;z&#x27;</span><br>    &#125;;<br><br><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> String <span class="hljs-title">toString</span><span class="hljs-params">(<span class="hljs-keyword">int</span> i, <span class="hljs-keyword">int</span> radix)</span> </span>&#123;<br>    <span class="hljs-keyword">if</span> (radix &lt; Character.MIN_RADIX || radix &gt; Character.MAX_RADIX)<br>        radix = <span class="hljs-number">10</span>;<br><br>    <span class="hljs-comment">/* Use the faster version */</span><br>    <span class="hljs-keyword">if</span> (radix == <span class="hljs-number">10</span>) &#123;<br>        <span class="hljs-keyword">return</span> toString(i);<br>    &#125;<br><br>    <span class="hljs-keyword">char</span> buf[] = <span class="hljs-keyword">new</span> <span class="hljs-keyword">char</span>[<span class="hljs-number">33</span>];<br>    <span class="hljs-keyword">boolean</span> negative = (i &lt; <span class="hljs-number">0</span>);<br>    <span class="hljs-keyword">int</span> charPos = <span class="hljs-number">32</span>;<br><br>    <span class="hljs-keyword">if</span> (!negative) &#123;<br>        i = -i;<br>    &#125;<br><br>    <span class="hljs-keyword">while</span> (i &lt;= -radix) &#123;<br>        buf[charPos--] = digits[-(i % radix)];<br>        i = i / radix;<br>    &#125;<br>    buf[charPos] = digits[-i];<br><br>    <span class="hljs-keyword">if</span> (negative) &#123;<br>        buf[--charPos] = <span class="hljs-string">&#x27;-&#x27;</span>;<br>    &#125;<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> String(buf, charPos, (<span class="hljs-number">33</span> - charPos));<br>&#125;<br></code></pre></td></tr></table></figure><p>和之前求 int 长度的方法有异曲同工之妙，哈哈哈哈</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+      <tag>源码</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>int 和字符串操作的思考</title>
+    <link href="/2021/07/23/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    <url>/2021/07/23/%E5%AD%97%E7%AC%A6%E4%B8%B2/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>今天写代码的时候，看到了一些 int 和 stirng 类型数据相加的操作，想到了一些小问题🤔</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs java">String a = <span class="hljs-string">&quot;&quot;</span>;<br><span class="hljs-keyword">int</span> b = -<span class="hljs-number">123</span>;<br>String strB = Integer.toString(b);<br>String strC = a + b;<br></code></pre></td></tr></table></figure><h3 id="Integer-toString-内部方法"><a href="#Integer-toString-内部方法" class="headerlink" title="Integer.toString()内部方法"></a>Integer.toString()内部方法</h3><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">public static String <span class="hljs-keyword">to</span><span class="hljs-constructor">String(<span class="hljs-params">int</span> <span class="hljs-params">i</span>)</span> &#123;<br>        <span class="hljs-keyword">if</span> (i<span class="hljs-operator"> == </span>Integer.MIN_VALUE)<br>            return <span class="hljs-string">&quot;-2147483648&quot;</span>;<br>        <span class="hljs-built_in">int</span> size = (i &lt; <span class="hljs-number">0</span>) ? <span class="hljs-built_in">string</span><span class="hljs-constructor">Size(-<span class="hljs-params">i</span>)</span> + <span class="hljs-number">1</span> : <span class="hljs-built_in">string</span><span class="hljs-constructor">Size(<span class="hljs-params">i</span>)</span>;<br>        <span class="hljs-built_in">char</span><span class="hljs-literal">[]</span> buf = <span class="hljs-keyword">new</span> <span class="hljs-built_in">char</span><span class="hljs-literal">[<span class="hljs-identifier">size</span>]</span>;<br>        get<span class="hljs-constructor">Chars(<span class="hljs-params">i</span>, <span class="hljs-params">size</span>, <span class="hljs-params">buf</span>)</span>;<br>        return <span class="hljs-keyword">new</span> <span class="hljs-constructor">String(<span class="hljs-params">buf</span>, <span class="hljs-params">true</span>)</span>;<br>    &#125;<br></code></pre></td></tr></table></figure><p>思考为何 <code> &quot;&quot;+ int</code> 能完成为何这种还存在，</p><p>想了想，String相加的时候，内部转换应该也是用了一样的方法，众所周知，</p><p>字符串相加会自动优化成 <code>StringBuild</code> 操作，</p><h3 id="StringBuilder-方法"><a href="#StringBuilder-方法" class="headerlink" title="StringBuilder 方法"></a>StringBuilder 方法</h3><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">@Override<br>  public StringBuilder append(<span class="hljs-built_in">int</span> i) &#123;<br>      super.append(i);<br>      return this;<br>  &#125;<br>  <br>  ====================<br>  点进super进去<br>  ====================<br>  <br>   public AbstractStringBuilder append(<span class="hljs-built_in">int</span> i) &#123;<br>      <span class="hljs-keyword">if</span> (i<span class="hljs-operator"> == </span>Integer.MIN_VALUE) &#123;<br>          append(<span class="hljs-string">&quot;-2147483648&quot;</span>);<br>          return this;<br>      &#125;<br>      <span class="hljs-built_in">int</span> appendedLength = (i &lt; <span class="hljs-number">0</span>) ? <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">Integer</span>.</span></span><span class="hljs-built_in">string</span><span class="hljs-constructor">Size(-<span class="hljs-params">i</span>)</span> + <span class="hljs-number">1</span><br>                                   : <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">Integer</span>.</span></span><span class="hljs-built_in">string</span><span class="hljs-constructor">Size(<span class="hljs-params">i</span>)</span>;<br>      <span class="hljs-built_in">int</span> spaceNeeded = count + appendedLength;<br>      ensure<span class="hljs-constructor">CapacityInternal(<span class="hljs-params">spaceNeeded</span>)</span>;<br>      <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">Integer</span>.</span></span>get<span class="hljs-constructor">Chars(<span class="hljs-params">i</span>, <span class="hljs-params">spaceNeeded</span>, <span class="hljs-params">value</span>)</span>;<br>      count = spaceNeeded;<br>      return this;<br>  &#125;<br><br></code></pre></td></tr></table></figure><p>果然，和 Integer里的方法基本一个道理，🤣🤣🤣🤣🤣</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>技术</tag>
+      
+      <tag>源码</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2021/07/09/helloWord/"/>
+    <url>/2021/07/09/helloWord/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Hello-World，终极拖延症的第一篇博客"><a href="#Hello-World，终极拖延症的第一篇博客" class="headerlink" title="Hello World，终极拖延症的第一篇博客"></a>Hello World，终极拖延症的第一篇博客</h2><p>作为一个技术人员，没有自己的博客太不像话了，哈哈哈哈😂😂😂😂😂。</p><p>准备每半个月写一篇博客（自己差点都信了），🚀🚀🚀🚀</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>生活</tag>
+      
+      <tag>感悟</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
