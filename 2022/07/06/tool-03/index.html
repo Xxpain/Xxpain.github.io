@@ -16,23 +16,31 @@
   <meta name="author" content="无情小肥羊">
   <meta name="keywords" content="">
   
-    <meta name="description" content="springMvc 参数下划线驼峰解析今天突然有个需求，有个接口对应请求参数都是下划线为分割点， 虽然有 @JsonProperty 可以去一一对应，但是整个类弄下来就很麻烦， 1@JsonNaming(value &#x3D; PropertyNamingStrategy.SnakeCaseStrategy.class)  后来找到这个，在实体类上配好，就不用一一去对应了，还是很方便的😂">
+    <meta name="description" content="引言作为一个 Java Web 开发，那是常年和浏览器打交道，下面推荐一些好用的 chrome 插件 Adblock Plus 一款屏蔽网页广告的插件，从用户量就能看出，一致好评！ Language Reactor">
 <meta property="og:type" content="article">
-<meta property="og:title" content="springMvc 参数下划线驼峰解析">
-<meta property="og:url" content="http://xxpain.github.io/2021/08/16/jsonInfo/index.html">
+<meta property="og:title" content="一揽子工具推荐之 Chrome 插件">
+<meta property="og:url" content="http://xxpain.github.io/2022/07/06/tool-03/index.html">
 <meta property="og:site_name" content="无情小肥羊的博客">
-<meta property="og:description" content="springMvc 参数下划线驼峰解析今天突然有个需求，有个接口对应请求参数都是下划线为分割点， 虽然有 @JsonProperty 可以去一一对应，但是整个类弄下来就很麻烦， 1@JsonNaming(value &#x3D; PropertyNamingStrategy.SnakeCaseStrategy.class)  后来找到这个，在实体类上配好，就不用一一去对应了，还是很方便的😂">
+<meta property="og:description" content="引言作为一个 Java Web 开发，那是常年和浏览器打交道，下面推荐一些好用的 chrome 插件 Adblock Plus 一款屏蔽网页广告的插件，从用户量就能看出，一致好评！ Language Reactor">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-08-16T15:05:53.000Z">
-<meta property="article:modified_time" content="2022-07-06T05:44:37.788Z">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/07/06/afc21343eae9f300.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/07/06/f9f3f66db1bbfaea.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/07/06/e7293811d5e58742.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/07/06/4d60412501470508.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/07/06/d99b598ec60256c5.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/07/06/b7e0d9a6da8ab27e.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/07/06/d27c9e0b3aa2b19d.png">
+<meta property="article:published_time" content="2022-07-06T05:13:07.000Z">
+<meta property="article:modified_time" content="2022-07-06T05:41:46.155Z">
 <meta property="article:author" content="无情小肥羊">
-<meta property="article:tag" content="java">
 <meta property="article:tag" content="技术">
+<meta property="article:tag" content="工具">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://s3.bmp.ovh/imgs/2022/07/06/afc21343eae9f300.png">
   
   
   
-  <title>springMvc 参数下划线驼峰解析 - 无情小肥羊的博客</title>
+  <title>一揽子工具推荐之 Chrome 插件 - 无情小肥羊的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -185,7 +193,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="springMvc 参数下划线驼峰解析"></span>
+            <span id="subtitle" data-typed-text="一揽子工具推荐之 Chrome 插件"></span>
           
         </div>
 
@@ -196,8 +204,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2021-08-16 23:05" pubdate>
-          2021年8月16日 晚上
+        <time datetime="2022-07-06 13:13" pubdate>
+          2022年7月6日 下午
         </time>
       </span>
     
@@ -208,7 +216,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          183 字
+          468 字
         
       </span>
     
@@ -219,7 +227,7 @@
         
         
         
-          2 分钟
+          4 分钟
         
       </span>
     
@@ -257,16 +265,28 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">springMvc 参数下划线驼峰解析</h1>
+            <h1 style="display: none">一揽子工具推荐之 Chrome 插件</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="springMvc-参数下划线驼峰解析"><a href="#springMvc-参数下划线驼峰解析" class="headerlink" title="springMvc 参数下划线驼峰解析"></a>springMvc 参数下划线驼峰解析</h1><p>今天突然有个需求，有个接口对应请求参数都是下划线为分割点，</p>
-<p>虽然有 <code>@JsonProperty</code> 可以去一一对应，但是整个类弄下来就很麻烦，</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-meta">@JsonNaming(<span class="hljs-params">value = PropertyNamingStrategy.SnakeCaseStrategy.<span class="hljs-keyword">class</span></span>)</span><br></code></pre></td></tr></table></figure>
-
-<p>后来找到这个，在实体类上配好，就不用一一去对应了，还是很方便的😂</p>
+                <h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>作为一个 Java Web 开发，那是常年和浏览器打交道，下面推荐一些好用的 chrome 插件</p>
+<h2 id="Adblock-Plus"><a href="#Adblock-Plus" class="headerlink" title="Adblock Plus"></a>Adblock Plus</h2><p><img src="https://s3.bmp.ovh/imgs/2022/07/06/afc21343eae9f300.png" srcset="/img/loading.gif" lazyload alt="image-20220706131931197"></p>
+<p>一款屏蔽网页广告的插件，从用户量就能看出，一致好评！</p>
+<h2 id="Language-Reactor"><a href="#Language-Reactor" class="headerlink" title="Language Reactor"></a>Language Reactor</h2><p><img src="https://s3.bmp.ovh/imgs/2022/07/06/f9f3f66db1bbfaea.png" srcset="/img/loading.gif" lazyload alt="image-20220706132520890"></p>
+<p>一款可以实时翻译 youtube，网飞视频的插件，还有双语对比，对于学习英语的人或者喜欢看 youtube 视频的人挺有帮助的。</p>
+<h2 id="LastPass-Free-Password-Manager"><a href="#LastPass-Free-Password-Manager" class="headerlink" title="LastPass: Free Password Manager"></a>LastPass: Free Password Manager</h2><p><img src="https://s3.bmp.ovh/imgs/2022/07/06/e7293811d5e58742.png" srcset="/img/loading.gif" lazyload alt="image-20220706132727708"></p>
+<p>平时经常注册各种各样账号，或者测试用户，密码账号多的都记不住，用这个插件就不用自己记密码啦，免费版的基本也够用了。</p>
+<h2 id="Proxy-SwitchyOmega"><a href="#Proxy-SwitchyOmega" class="headerlink" title="Proxy SwitchyOmega"></a>Proxy SwitchyOmega</h2><p><img src="https://s3.bmp.ovh/imgs/2022/07/06/4d60412501470508.png" srcset="/img/loading.gif" lazyload alt="image-20220706133027320"></p>
+<p>科学上网必备</p>
+<h2 id="Tampermonkey"><a href="#Tampermonkey" class="headerlink" title="Tampermonkey"></a>Tampermonkey</h2><p><img src="https://s3.bmp.ovh/imgs/2022/07/06/d99b598ec60256c5.png" srcset="/img/loading.gif" lazyload alt="image-20220706133202163"></p>
+<p>这是一款支持自定义脚本的插件，也可以从别的脚本平台用别人写好的脚本，这个应该大部分都用过，哈哈。</p>
+<h2 id="Vimium"><a href="#Vimium" class="headerlink" title="Vimium"></a>Vimium</h2><p>可以用 vim 方式操作浏览器，个人很喜欢</p>
+<h2 id="书签侧边栏"><a href="#书签侧边栏" class="headerlink" title="书签侧边栏"></a>书签侧边栏</h2><p><img src="https://s3.bmp.ovh/imgs/2022/07/06/b7e0d9a6da8ab27e.png" srcset="/img/loading.gif" lazyload alt="image-20220706133526204"></p>
+<p>支持书签查找，书签太多的时候经常找不到某一个书签，或者只记得书签一部分名字去查找，很方便。</p>
+<h2 id="沙拉查词"><a href="#沙拉查词" class="headerlink" title="沙拉查词"></a>沙拉查词</h2><p>这个就不多介绍了，英语苦手必备</p>
+<h2 id="自选基金助手-实时查看基金涨跌幅"><a href="#自选基金助手-实时查看基金涨跌幅" class="headerlink" title="自选基金助手 - 实时查看基金涨跌幅"></a>自选基金助手 - 实时查看基金涨跌幅</h2><p><img src="https://s3.bmp.ovh/imgs/2022/07/06/d27c9e0b3aa2b19d.png" srcset="/img/loading.gif" lazyload alt="image-20220706133736932"></p>
+<p>身为一个老韭菜，当然没事看看基金和大盘咋样了，省的还要用手机看。</p>
 
                 
               </div>
@@ -279,9 +299,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/java/">#java</a>
-      
         <a href="/tags/%E6%8A%80%E6%9C%AF/">#技术</a>
+      
+        <a href="/tags/%E5%B7%A5%E5%85%B7/">#工具</a>
       
     </div>
   
@@ -293,8 +313,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>springMvc 参数下划线驼峰解析</div>
-      <div>http://xxpain.github.io/2021/08/16/jsonInfo/</div>
+      <div>一揽子工具推荐之 Chrome 插件</div>
+      <div>http://xxpain.github.io/2022/07/06/tool-03/</div>
     </div>
     <div class="license-meta">
       
@@ -306,7 +326,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2021年8月16日</div>
+          <div>2022年7月6日</div>
         </div>
       
       
@@ -336,18 +356,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/08/19/parallel/" title="并行stream流使用注意">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">并行stream流使用注意</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/08/10/idea/" title="idea冷门知识">
-                        <span class="hidden-mobile">idea冷门知识</span>
+                      <a href="/2022/07/05/tool-02/" title="一揽子工具推荐之命令行工具与 windows 工具">
+                        <span class="hidden-mobile">一揽子工具推荐之命令行工具与 windows 工具</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

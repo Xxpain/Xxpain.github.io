@@ -18,13 +18,13 @@
   
     <meta name="description" content="Apache httpclient 并发请求时的注意设置还是前几天并发请求的需求，当时发现测试里直接开十个线程请求，比项目里请求要快上一倍， 俺直呼不对劲不对劲，哈哈哈哈，第一时间想到用的 restTemplate 底层用到了线程池，但是并没有十个同时进行，所以排队请求，耗时多了一倍， 后面发现项目里 restTemplate 用的 Apache httpclient， 12345678910pr">
 <meta property="og:type" content="article">
-<meta property="og:title" content="resttemplate">
+<meta property="og:title" content="Apache httpclient 并发请求时的注意设置">
 <meta property="og:url" content="http://xxpain.github.io/2021/08/23/resttemplate/index.html">
 <meta property="og:site_name" content="无情小肥羊的博客">
 <meta property="og:description" content="Apache httpclient 并发请求时的注意设置还是前几天并发请求的需求，当时发现测试里直接开十个线程请求，比项目里请求要快上一倍， 俺直呼不对劲不对劲，哈哈哈哈，第一时间想到用的 restTemplate 底层用到了线程池，但是并没有十个同时进行，所以排队请求，耗时多了一倍， 后面发现项目里 restTemplate 用的 Apache httpclient， 12345678910pr">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-08-23T11:25:04.000Z">
-<meta property="article:modified_time" content="2021-08-23T11:36:09.774Z">
+<meta property="article:modified_time" content="2022-07-06T05:42:56.740Z">
 <meta property="article:author" content="无情小肥羊">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content="技术">
@@ -32,7 +32,7 @@
   
   
   
-  <title>resttemplate - 无情小肥羊的博客</title>
+  <title>Apache httpclient 并发请求时的注意设置 - 无情小肥羊的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -185,7 +185,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="resttemplate"></span>
+            <span id="subtitle" data-typed-text="Apache httpclient 并发请求时的注意设置"></span>
           
         </div>
 
@@ -257,7 +257,7 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">resttemplate</h1>
+            <h1 style="display: none">Apache httpclient 并发请求时的注意设置</h1>
             
             
               <div class="markdown-body">
@@ -296,7 +296,7 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>resttemplate</div>
+      <div>Apache httpclient 并发请求时的注意设置</div>
       <div>http://xxpain.github.io/2021/08/23/resttemplate/</div>
     </div>
     <div class="license-meta">
@@ -339,9 +339,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/09/09/code-review/" title="code review注意事项">
+                      <a href="/2021/09/09/code-review/" title="code review 注意事项">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">code review注意事项</span>
+                        <span class="hidden-mobile">code review 注意事项</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -349,8 +349,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/08/19/parallel/" title="parallel">
-                        <span class="hidden-mobile">parallel</span>
+                      <a href="/2021/08/19/parallel/" title="并行stream流使用注意">
+                        <span class="hidden-mobile">并行stream流使用注意</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

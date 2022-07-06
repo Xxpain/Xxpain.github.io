@@ -18,13 +18,13 @@
   
     <meta name="description" content="并行stream流使用注意​    今天项目中有个地方需要并发调用别的接口，同事推荐我用 stream 的 parallel 流去进行并行操作，使用起来确实很简单，但是使用 stream 的 parallel 流 项目所有流操作都是共享该池，当频繁的用于阻塞型任务（IO流：http请求等）时会导致整个项目卡顿，所以说parallelStream只适用于cpu密集型的任务。 123456789101">
 <meta property="og:type" content="article">
-<meta property="og:title" content="parallel">
+<meta property="og:title" content="并行stream流使用注意">
 <meta property="og:url" content="http://xxpain.github.io/2021/08/19/parallel/index.html">
 <meta property="og:site_name" content="无情小肥羊的博客">
 <meta property="og:description" content="并行stream流使用注意​    今天项目中有个地方需要并发调用别的接口，同事推荐我用 stream 的 parallel 流去进行并行操作，使用起来确实很简单，但是使用 stream 的 parallel 流 项目所有流操作都是共享该池，当频繁的用于阻塞型任务（IO流：http请求等）时会导致整个项目卡顿，所以说parallelStream只适用于cpu密集型的任务。 123456789101">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-08-18T16:52:58.000Z">
-<meta property="article:modified_time" content="2021-08-23T11:24:00.437Z">
+<meta property="article:modified_time" content="2022-07-06T05:44:20.840Z">
 <meta property="article:author" content="无情小肥羊">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content="技术">
@@ -32,7 +32,7 @@
   
   
   
-  <title>parallel - 无情小肥羊的博客</title>
+  <title>并行stream流使用注意 - 无情小肥羊的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -185,7 +185,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="parallel"></span>
+            <span id="subtitle" data-typed-text="并行stream流使用注意"></span>
           
         </div>
 
@@ -257,7 +257,7 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">parallel</h1>
+            <h1 style="display: none">并行stream流使用注意</h1>
             
             
               <div class="markdown-body">
@@ -292,7 +292,7 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>parallel</div>
+      <div>并行stream流使用注意</div>
       <div>http://xxpain.github.io/2021/08/19/parallel/</div>
     </div>
     <div class="license-meta">
@@ -335,9 +335,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/08/23/resttemplate/" title="resttemplate">
+                      <a href="/2021/08/23/resttemplate/" title="Apache httpclient 并发请求时的注意设置">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">resttemplate</span>
+                        <span class="hidden-mobile">Apache httpclient 并发请求时的注意设置</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -345,8 +345,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/08/16/jsonInfo/" title="springMvc参数下划线驼峰解析">
-                        <span class="hidden-mobile">springMvc参数下划线驼峰解析</span>
+                      <a href="/2021/08/16/jsonInfo/" title="springMvc 参数下划线驼峰解析">
+                        <span class="hidden-mobile">springMvc 参数下划线驼峰解析</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
