@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>一揽子工具推荐之 idea 插件与快捷键</title>
+    <link href="/2022/07/07/tool-04/"/>
+    <url>/2022/07/07/tool-04/</url>
+    
+    <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>作为每天都要使用的工具 Idea ，当然也有很多提高我们工作效率的插件，下面推荐一些我个人喜爱的插件</p><h2 id="arthas-idea"><a href="#arthas-idea" class="headerlink" title="arthas idea"></a>arthas idea</h2><img src="https://s3.bmp.ovh/imgs/2022/07/07/254e82dea6537aa8.png" alt="image-20220707154824535" style="zoom:50%;" /><blockquote><p><code>Arthas</code> 是Alibaba开源的Java诊断工具，深受开发者喜爱。</p></blockquote><p>arthas 的命令也是很多，学习成本也是有一些的，配合这些插件，直接生成命令，帮助我们排查问题，可以事半功倍。</p><h2 id="RestfulTool"><a href="#RestfulTool" class="headerlink" title="RestfulTool"></a>RestfulTool</h2><p><img src="https://s3.bmp.ovh/imgs/2022/07/07/e461e29008dfd207.png" alt="image-20220707155134040"></p><p><img src="https://s3.bmp.ovh/imgs/2022/07/07/9bafd856ed2f2041.gif" alt="动画1"></p><p>虽然 idea 自带了 symbol 功能也可以查询接口，但是查询起来还是没那么方便，用 RestfulTool  查起来就方便很多啦。</p><h2 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h2><p>这个应该都知道了，英语苦手必备，翻译变量名称的时候使用一下，也可以避免很多笑话。</p><p><img src="https://s3.bmp.ovh/imgs/2022/07/07/9efafb925fe0d2ca.gif" alt="动画2"></p><h2 id="mybatisLogFormat"><a href="#mybatisLogFormat" class="headerlink" title="mybatisLogFormat"></a>mybatisLogFormat</h2><p><img src="https://img-blog.csdnimg.cn/img_convert/aa0902187ed4efb35544a1325e745128.png" alt="image"></p><p>平时经常要看 sql 输出到底是什么，用它很快就可以得到最终执行的 sql 语句，很方便我们去排查或者调试。</p><h2 id="idea-快捷键"><a href="#idea-快捷键" class="headerlink" title="idea 快捷键"></a>idea 快捷键</h2><p>其实 idea 已经提供了很多好用的功能，使用快捷键的话也会更方便。下面介绍一些可能比较冷门但又很好用的，</p><table><thead><tr><th>快捷键</th><th>介绍</th></tr></thead><tbody><tr><td>Ctrl + P</td><td>方法参数提示显示</td></tr><tr><td>Alt + 左右方向键</td><td>按左方向切换当前已打开的文件视图</td></tr><tr><td>Ctrl + Shift + Backspace</td><td>退回到上次修改的地方</td></tr><tr><td>F2</td><td>跳转到下一个高亮错误 或 警告位置</td></tr></tbody></table><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>工具推荐系列到此应该算是告一段落了，后面有新的好用的工具，到时候再更新。♥️</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>技术</tag>
+      
+      <tag>工具</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>一揽子工具推荐之 Chrome 插件</title>
     <link href="/2022/07/06/tool-03/"/>
     <url>/2022/07/06/tool-03/</url>
