@@ -16,24 +16,24 @@
   <meta name="author" content="无情小肥羊">
   <meta name="keywords" content="">
   
-    <meta name="description" content="引言今年看了不少书，也没总结，忘了从哪里看的一句话  读书不总结 就等于没读  所以为了没有白读书来总结一下 😂😂😂 技术相关 《人月神话》  印象最深的是这句： 当一份工作因具有连续性的限制而不可切分时，就算投入再多的人力，也不会对时程有所影响，生小孩就是需要九个月，你叫多少个妈一起生都一样，软件工程就是像这样的工作，因为它必须调试，而调试本身就具有连续性的本质。   《重构 改善既有代码">
+    <meta name="description" content="引言最近轮到我技术分享了，把分享内容发到博客吧 对于开发同学而言，如何保证高质量代码，代码评审和重构是不可缺少的一环，通过代码评审，可以尽早的发现项目中存在的问题，也可以帮助同事之间的沟通与交流。 目录 代码评审的好处 code review 流程 code review 的内容 如何高效 code review 总结  代码评审的好处">
 <meta property="og:type" content="article">
-<meta property="og:title" content="21年阅读书籍总结（待续）">
-<meta property="og:url" content="http://xxpain.github.io/2021/09/09/book/index.html">
+<meta property="og:title" content="浅谈代码评审">
+<meta property="og:url" content="http://xxpain.github.io/2022/09/28/code-review-1/index.html">
 <meta property="og:site_name" content="无情小肥羊的博客">
-<meta property="og:description" content="引言今年看了不少书，也没总结，忘了从哪里看的一句话  读书不总结 就等于没读  所以为了没有白读书来总结一下 😂😂😂 技术相关 《人月神话》  印象最深的是这句： 当一份工作因具有连续性的限制而不可切分时，就算投入再多的人力，也不会对时程有所影响，生小孩就是需要九个月，你叫多少个妈一起生都一样，软件工程就是像这样的工作，因为它必须调试，而调试本身就具有连续性的本质。   《重构 改善既有代码">
+<meta property="og:description" content="引言最近轮到我技术分享了，把分享内容发到博客吧 对于开发同学而言，如何保证高质量代码，代码评审和重构是不可缺少的一环，通过代码评审，可以尽早的发现项目中存在的问题，也可以帮助同事之间的沟通与交流。 目录 代码评审的好处 code review 流程 code review 的内容 如何高效 code review 总结  代码评审的好处">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-09-09T06:10:00.000Z">
-<meta property="article:modified_time" content="2022-01-21T05:35:12.022Z">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/09/28/a0b50d08ca6edf6a.png">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/09/28/4dc72d3479b6ee5d.png">
+<meta property="article:published_time" content="2022-09-28T07:29:04.000Z">
+<meta property="article:modified_time" content="2022-09-28T07:33:20.328Z">
 <meta property="article:author" content="无情小肥羊">
-<meta property="article:tag" content="java">
-<meta property="article:tag" content="书籍">
-<meta property="article:tag" content="总结">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://s3.bmp.ovh/imgs/2022/09/28/a0b50d08ca6edf6a.png">
   
   
   
-  <title>21年阅读书籍总结（待续） - 无情小肥羊的博客</title>
+  <title>浅谈代码评审 - 无情小肥羊的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -186,7 +186,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="21年阅读书籍总结（待续）"></span>
+            <span id="subtitle" data-typed-text="浅谈代码评审"></span>
           
         </div>
 
@@ -197,8 +197,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2021-09-09 14:10" pubdate>
-          2021年9月9日 下午
+        <time datetime="2022-09-28 15:29" pubdate>
+          2022年9月28日 下午
         </time>
       </span>
     
@@ -209,7 +209,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          552 字
+          3.1k 字
         
       </span>
     
@@ -220,7 +220,7 @@
         
         
         
-          5 分钟
+          26 分钟
         
       </span>
     
@@ -259,47 +259,159 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">21年阅读书籍总结（待续）</h1>
+            <h1 style="display: none">浅谈代码评审</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>今年看了不少书，也没总结，忘了从哪里看的一句话</p>
-<blockquote>
-<p>读书不总结 就等于没读</p>
-</blockquote>
-<p>所以为了没有白读书来总结一下 😂😂😂</p>
-<h3 id="技术相关"><a href="#技术相关" class="headerlink" title="技术相关"></a>技术相关</h3><ul>
-<li><p>《人月神话》</p>
-<blockquote>
-<p>印象最深的是这句： 当一份工作因具有连续性的限制而不可切分时，就算投入再多的人力，也不会对时程有所影响，生小孩就是需要九个月，你叫多少个妈一起生都一样，<br>软件工程就是像这样的工作，因为它必须调试，而调试本身就具有连续性的本质。</p>
-</blockquote>
-</li>
-<li><p>《重构 改善既有代码的设计》</p>
-<blockquote>
-<p>总结：看到有坏味道的代码就立刻着手重构，否则破窗效应马上就会在整个项目里应验😂</p>
-</blockquote>
-</li>
-<li><p>《人件》</p>
-<blockquote>
-<p>总结： 一本将管理的书，理解团队之间用于沟通合作成本还是很高的，不过目前好像我这个 level 暂时还用不到这些管理知识😒</p>
-</blockquote>
-</li>
-<li><p>《测试驱动开发》</p>
-<blockquote>
-<p>了解了一下从先测试着手开发，对重构和代码质量确实可以提供很多好处，可惜项目中工期要求，一直难于实践 TDD 开发</p>
-</blockquote>
-</li>
+                <p><a name="CuBQV"></a></p>
+<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>最近轮到我技术分享了，把分享内容发到博客吧</p>
+<p>对于开发同学而言，如何保证高质量代码，代码评审和重构是不可缺少的一环，通过代码评审，可以尽早的发现项目中存在的问题，也可以帮助同事之间的沟通与交流。<br><a name="uWBcC"></a></p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
+<li>代码评审的好处</li>
+<li>code review 流程</li>
+<li>code review 的内容</li>
+<li>如何高效 code review</li>
+<li>总结<br><a name="bcd32cba"></a></li>
 </ul>
-<p>其他很多书忘了，下次有机会再补齐吧🚀</p>
+<h2 id="代码评审的好处"><a href="#代码评审的好处" class="headerlink" title="代码评审的好处"></a>代码评审的好处</h2><ul>
+<li>提高代码质量</li>
+</ul>
 <blockquote>
-<p>10月19日 更新 </p>
-<p>准备接下来看这几本 《代码大全》《你的灯亮着吗》《现代操作系统》(强推)，《深入理解计算机系统》《程序员修炼之道:从小工到专家》<br>《 计算机程序的构造和解释》编程珠玑 《失控》<br>《TCPIP详解三部曲》、《图解HTTP》、《图解TCPIP》<br>哈哈，好像挺多的，慢慢看吧😂</p>
+<ol>
+<li>对于同一段业务代码，由于看待问题的角度不同，评审者可能会比开发者更容易发现其中的问题，或是找到更有效的解决方案，共同维护团队的代码质量。</li>
+<li>提高代码质量和可维护性, 可读性等。</li>
+<li>查漏补缺, 发现一些潜在的问题点等。</li>
+<li>最佳实践, 能够更好更快的完成任务的方法。</li>
+<li>知识分享, Review 他人代码时, 其实也是一个学习的过程, 自己也会反思&amp;总结。</li>
+</ol>
 </blockquote>
+<ul>
+<li>开发者收获</li>
+</ul>
 <blockquote>
-<p>12月22日 更新</p>
-<p>最近一个人顶一个项目有点忙，后面闲下来准备看看周大佬的 《凤凰架构》</p>
+<ol>
+<li>对需求的理解得到加深。</li>
+<li>表达能力得到加强。</li>
+<li>逻辑能力得到训练。</li>
+<li>心理承受能力得到提高。</li>
+</ol>
 </blockquote>
+<ul>
+<li>评审者收获</li>
+</ul>
+<blockquote>
+<p>通过有效的代码 Review，Owner 和 Reviewer 都将获得成长，在 Review 过程中参与人就具体的问题展开深入的讨论，无论是怎么写出整洁的代码、怎么更好地更全面地思考问题、怎么最佳地解决问题，参与人都可以互相取长补短，互相提高。通过具体代码实现进行的讨论往往是最深入和有效的，代码 Review 是开发者提高代码能力最重要的途径之一。<br><img src="https://s3.bmp.ovh/imgs/2022/09/28/a0b50d08ca6edf6a.png" srcset="/img/loading.gif" lazyload alt="image-20220928153159476"></p>
+</blockquote>
+<ul>
+<li>快速了解业务</li>
+</ul>
+<blockquote>
+<p>理想状态下，团队中的每个人都需要对整个项目的各个部分都很熟悉，当然，在项目很大时这是不现实的。通过代码审查至少可以让每个人了解更多的业务模块，同时也能达到人员互备的目的。<br>通过相互 CR，评审者也相当于参与了这次开发，相当于一种人力“备份”，当你休假或正在忙别的需求的时候，这时“备份”或许就能帮上忙了。</p>
+</blockquote>
+<p><a name="J2OwD"></a></p>
+<h2 id="code-review-流程说明"><a href="#code-review-流程说明" class="headerlink" title="code review 流程说明"></a>code review 流程说明</h2><p><img src="https://s3.bmp.ovh/imgs/2022/09/28/4dc72d3479b6ee5d.png" srcset="/img/loading.gif" lazyload alt="image-20220928153137793"><br><a name="Rntze"></a></p>
+<h2 id="code-review-内容"><a href="#code-review-内容" class="headerlink" title="code review 内容"></a>code review 内容</h2><p><a name="Gw5Ty"></a></p>
+<h3 id="业务逻辑"><a href="#业务逻辑" class="headerlink" title="业务逻辑"></a>业务逻辑</h3><p>这个是最基本的要求，如果连逻辑都无法实现功能，那也没有继续看的必要了。 首先我们看下需求文档，自己上手去系统熟悉下业务，然后看下设计文档，设计文档里头就会有数据库设计，接口罗列等，然后再开始看代码逻辑是不是对的上。<br><a name="MI7CN"></a></p>
+<h3 id="技术上"><a href="#技术上" class="headerlink" title="技术上"></a>技术上</h3><p><a name="vUWl6"></a></p>
+<h4 id="1-可读性"><a href="#1-可读性" class="headerlink" title="1. 可读性"></a>1. 可读性</h4><ul>
+<li><strong>代码格式</strong></li>
+</ul>
+<p>整体代码风格保持一致，可以让阅读者比较好的阅读环境</p>
+<ul>
+<li><strong>字段、变量、参数、方法、类的命名是否真实反映它们所代表的事物。</strong></li>
+<li><strong>注释</strong></li>
+</ul>
+<p>恰到好处的注释，能够帮助评审者更好地理解函数体和类。</p>
+<ul>
+<li><strong>方法逻辑简洁</strong></li>
+</ul>
+<p>方法要尽可能的简洁明了，这样后期维护可以通过方法名，或者方法上的备注，一眼看出这个方法是干嘛用的</p>
+<ul>
+<li><strong>提交记录清晰</strong>。<br><a name="Dahg5"></a></li>
+</ul>
+<h4 id="2-设计上"><a href="#2-设计上" class="headerlink" title="2. 设计上"></a>2. 设计上</h4><ul>
+<li>代码的位置是否正确？比如涉及订单的新代码是否在订单服务相关的位置？</li>
+<li>新代码是否重用了现存的代码？新代码是否可以被现有代码重用？新代码是否有重复代码？如果是的话，是否应该重构成一个更可被重用的模式，还是当前还可以接受？</li>
+<li><strong>表</strong></li>
+</ul>
+<p>数据表是很源头的地方，如果设计不好，后面会经常变动。表设计满足第三原则，尽量剥离各个表的依赖，然后主表跟附属表隔开。</p>
+<ul>
+<li><strong>接口设计</strong></li>
+</ul>
+<p>是否根据业务需求考虑接口设计保留一定扩展性<br><a name="FaB3l"></a></p>
+<h4 id="3-性能相关"><a href="#3-性能相关" class="headerlink" title="3. 性能相关"></a>3. 性能相关</h4><ul>
+<li>这段代码是否有硬性性能需求，是否满足？</li>
+<li>调用数据库</li>
+</ul>
+<p>如在循环中逐个调用数据库，一种情况就是加载ID列表之后，再在数据库中逐个查询ID对应的每条数据。</p>
+<ul>
+<li>不必要的网络调用</li>
+</ul>
+<p>就像数据库一样，远程服务有时也会被过度使用，原来只要一个远程调用就可实现的，或者可以使用批量或缓存防止昂贵网络调用的，却使用多个远程调用来实现。</p>
+<ul>
+<li>是否存在内存泄露 &amp; 无限增长问题？</li>
+</ul>
+<p>Java 中一些常见的原因会是：可变的静态字段，使用 ThreadLocal 变量和使用类加载器。 如果你看见新的变量不断被加到list或map中，你就要问下，这个list或map什么时候失效或清除无用数据。</p>
+<ul>
+<li>资源池是否配置正确？</li>
+</ul>
+<p>针对一个环境的最佳配置取决于很多因素，所以作为审查者你很难马上知道像数据库连接池大小是否正确等这些问题。但是有一些是你一眼就可以看出来的，像资源池是否太小（比如大小设置为1）或太大（如数百万线程）。</p>
+<ul>
+<li>代码是否使用了正确的适合多线程的数据结构</li>
+<li>代码是否正确使用锁？作为审查者你应该检查被审代码是否允许多个线程修改变量导致程序崩溃。代码可能需要同步、锁、原子变量来对代码块进行控制。<br><a name="xatwM"></a></li>
+</ul>
+<h4 id="4-其他"><a href="#4-其他" class="headerlink" title="4. 其他"></a>4. 其他</h4><h4 id="提交代码尽量保证为单一业务，代码不过多"><a href="#提交代码尽量保证为单一业务，代码不过多" class="headerlink" title="提交代码尽量保证为单一业务，代码不过多"></a>提交代码尽量保证为单一业务，代码不过多</h4><p><a name="J95hY"></a></p>
+<h5 id="代码级优化"><a href="#代码级优化" class="headerlink" title="代码级优化"></a>代码级优化</h5><p>对大部分并不是要构建低延时应用的机构来说，代码级优化往往是过早优化，所以首先要知道代码级优化是否必要。</p>
+<ul>
+<li>代码是否在不需要的地方使用同步或锁操作？如果代码始终运行在单线程中，锁往往是不必要的。</li>
+<li>代码是否可以使用原子变量替代锁或同步操作？</li>
+<li>代码是否使用了不必要的线程安全的数据结构？比如是否可以使用ArrayList替代Vector？</li>
+<li>代码是否在通用的操作中使用了低性能的数据结构？如在经常需要查找某个特定元素的地方使用链表。</li>
+<li>代码是否可以使用懒加载并从中获得性能提升？</li>
+<li>条件判断语句或其他逻辑是否可以将最高效的求值语句放在前面来使其他语句短路？</li>
+<li>代码是否存在许多字符串格式化？是否有方法可以使之更高效？<br><a name="ATone"></a></li>
+</ul>
+<h5 id="引用第三方类库"><a href="#引用第三方类库" class="headerlink" title="引用第三方类库"></a>引用第三方类库</h5><p>第三方类库是侵蚀系统安全并引起漏洞的一个途径。当审查代码时至少你要检查是否引入了新的依赖。<br><a name="HUQoB"></a></p>
+<h5 id="代码的运行是否应该被日志记录或监控？是否正确地使用？"><a href="#代码的运行是否应该被日志记录或监控？是否正确地使用？" class="headerlink" title="代码的运行是否应该被日志记录或监控？是否正确地使用？"></a>代码的运行是否应该被日志记录或监控？是否正确地使用？</h5><p>日志和监控需求因各个项目而不同，一般会关注这些：</p>
+<ul>
+<li>代码是否改变了数据（如增删改操作）？是否应该记录由谁何时改变了什么？</li>
+<li>代码是否涉及关键性能的部分？是否应该在性能监控系统中记录开始时间和结束时间？<br><a name="eIS0q"></a></li>
+</ul>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h3 id="如何高效-code-review"><a href="#如何高效-code-review" class="headerlink" title="如何高效 code review"></a>如何高效 code review</h3><ul>
+<li>明确 code review 中事项的优先级</li>
+</ul>
+<p>从上面也能看出来 code review 要关心的事项还是很多的，所以安排事项优先级可以帮助处理主要问题。</p>
+<ul>
+<li>尽可能及时的进行 code review</li>
+</ul>
+<p>当你收到别人的 code review 邀请时，尽量第一时间就开始。因为这时我们的记忆是最清晰的，并且通常会        对你的及时反馈心怀感激，这种正面情绪对于 code review 是非常有帮助的。</p>
+<ul>
+<li>可以在 ide 开发环境中去 reivew</li>
+</ul>
+<p>一般我们 code review 是在 gitlab 中自己用眼睛去看，更好的方式是用 IDE 各种自动提示功能，各种强大的     IDE 完全可以成为我们的一大助力。</p>
+<ul>
+<li>不要吝啬你的赞扬</li>
+</ul>
+<p>每个人的内心深处都是期待被别人称赞的，因此在 code review 开始的时候不要老是揪着变量命名、代码重    复之类的问题。code review 中发现好代码，可以给作者一些赞美，这样他们也就会乐于接受你对于代码风格等方面的建议了——它能培养出强大而积极进取的团队  : )</p>
+<ul>
+<li>把程序跑起来</li>
+</ul>
+<p>把程序运行起来，亲自试一试，或许你会有一些和他们测试时不同的操作，发现一些他们遗漏的问题。</p>
+<ul>
+<li>明确 Coding 规则标准</li>
+</ul>
+<p>没错，和公司 kpi 一样，只有量化的指标，才能高效的执行。比如一个方法多少行算过长？如果总是参考上下文去判断，后面所有人就不会考虑这个问题了，因为太难判断，强制规定为一个方法最多不超过 80 行，code review 该事项则会事半功倍。</p>
+<ul>
+<li>善用各种自动化工具</li>
+</ul>
+<p>可以搭建好各种完善的自动化流程，如 CI/CD，代码质量测试工具：SonarQube等，把一些工作交给机器总是比人更高效的。</p>
+<h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>代码审查是针对代码，不是针对人。代码审查是一种学习，是表扬，是获得反馈，是一种十分社交性的活动。代码审查应该是有趣的，不要让它变的无聊。</p>
+<ul>
+<li>适当的激励机制更好的激发团队主动性。</li>
+<li>按照经验，code review 启动前期建议采用强制要求，否则很难有效开展起来。坚持一段时间待习惯养成后再考虑放开。</li>
+<li>code review 的方式有多种方式：强制&amp;非强制、线上交流&amp;线下会议、小片段&amp;大模块、事前&amp;事后、高频率&amp;低频率，建议根据团队水平因地制宜。</li>
+</ul>
 
                 
               </div>
@@ -309,17 +421,6 @@
               <div class="post-metas my-3">
   
   
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/java/">#java</a>
-      
-        <a href="/tags/%E4%B9%A6%E7%B1%8D/">#书籍</a>
-      
-        <a href="/tags/%E6%80%BB%E7%BB%93/">#总结</a>
-      
-    </div>
-  
 </div>
 
 
@@ -328,8 +429,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>21年阅读书籍总结（待续）</div>
-      <div>http://xxpain.github.io/2021/09/09/book/</div>
+      <div>浅谈代码评审</div>
+      <div>http://xxpain.github.io/2022/09/28/code-review-1/</div>
     </div>
     <div class="license-meta">
       
@@ -341,7 +442,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2021年9月9日</div>
+          <div>2022年9月28日</div>
         </div>
       
       
@@ -371,18 +472,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/09/10/float/" title="计算机里小数如何保存的">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">计算机里小数如何保存的</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/09/09/code-review/" title="code review 注意事项">
-                        <span class="hidden-mobile">code review 注意事项</span>
+                      <a href="/2022/08/23/book-2202-08/" title="22年中阅读书籍总结">
+                        <span class="hidden-mobile">22年中阅读书籍总结</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
