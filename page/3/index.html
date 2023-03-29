@@ -214,6 +214,48 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
+        <a href="/2021/08/19/parallel/" target="_self">
+          并行stream流使用注意
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2021/08/19/parallel/" target="_self">
+        <div>
+          并行stream流使用注意​    今天项目中有个地方需要并发调用别的接口，同事推荐我用 stream 的 parallel 流去进行并行操作，使用起来确实很简单，但是使用 stream 的 parallel 流 项目所有流操作都是共享该池，当频繁的用于阻塞型任务（IO流：http请求等）时会导致整个项目卡顿，所以说parallelStream只适用于cpu密集型的任务。 123456789101
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-08-19 00:52" pubdate>
+              2021-08-19
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/java/">#java</a>
+            
+              <a href="/tags/%E6%8A%80%E6%9C%AF/">#技术</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
         <a href="/2021/08/16/jsonInfo/" target="_self">
           springMvc 参数下划线驼峰解析
         </a>
