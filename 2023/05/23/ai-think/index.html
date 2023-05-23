@@ -16,27 +16,24 @@
   <meta name="author" content="无情小肥羊">
   <meta name="keywords" content="">
   
-    <meta name="description" content="引言最近轮到我技术分享了，把分享内容发到博客吧 对于开发同学而言，如何保证高质量代码，代码评审和重构是不可缺少的一环，通过代码评审，可以尽早的发现项目中存在的问题，也可以帮助同事之间的沟通与交流。 目录 代码评审的好处 code review 流程 code review 的内容 如何高效 code review 总结  代码评审的好处">
+    <meta name="description" content="引言chatGPT 已经火出圈快半年了，作为一个行业相关者，当然也是一直在关注 着 AIGC 相关事物。 GitHub Copilot 初见记得去年在 8 月份吧，逛 v2ex 看到可以申请测试体验，马上就上 github 申请了，半月过去就通过了， 而且还有 idea 插件支持，作为一个 javaer，整一个就是欣喜若狂，马上安装试用。 体验上一秒你还觉得，卧槽它怎么知道我想这么写。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="浅谈代码评审">
-<meta property="og:url" content="http://xxpain.github.io/2022/09/28/code-review-1/index.html">
+<meta property="og:title" content="关于 AIGC">
+<meta property="og:url" content="http://xxpain.github.io/2023/05/23/ai-think/index.html">
 <meta property="og:site_name" content="无情小肥羊的博客">
-<meta property="og:description" content="引言最近轮到我技术分享了，把分享内容发到博客吧 对于开发同学而言，如何保证高质量代码，代码评审和重构是不可缺少的一环，通过代码评审，可以尽早的发现项目中存在的问题，也可以帮助同事之间的沟通与交流。 目录 代码评审的好处 code review 流程 code review 的内容 如何高效 code review 总结  代码评审的好处">
+<meta property="og:description" content="引言chatGPT 已经火出圈快半年了，作为一个行业相关者，当然也是一直在关注 着 AIGC 相关事物。 GitHub Copilot 初见记得去年在 8 月份吧，逛 v2ex 看到可以申请测试体验，马上就上 github 申请了，半月过去就通过了， 而且还有 idea 插件支持，作为一个 javaer，整一个就是欣喜若狂，马上安装试用。 体验上一秒你还觉得，卧槽它怎么知道我想这么写。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/09/28/a0b50d08ca6edf6a.png">
-<meta property="og:image" content="https://s3.bmp.ovh/imgs/2022/09/28/4dc72d3479b6ee5d.png">
-<meta property="article:published_time" content="2022-09-28T07:29:04.000Z">
-<meta property="article:modified_time" content="2022-09-28T07:36:13.059Z">
+<meta property="article:published_time" content="2023-05-23T05:36:24.000Z">
+<meta property="article:modified_time" content="2023-05-23T06:34:24.409Z">
 <meta property="article:author" content="无情小肥羊">
+<meta property="article:tag" content="感悟">
 <meta property="article:tag" content="技术">
-<meta property="article:tag" content="java">
-<meta property="article:tag" content="设计">
+<meta property="article:tag" content="ai">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://s3.bmp.ovh/imgs/2022/09/28/a0b50d08ca6edf6a.png">
   
   
   
-  <title>浅谈代码评审 - 无情小肥羊的博客</title>
+  <title>关于 AIGC - 无情小肥羊的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -189,7 +186,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="浅谈代码评审"></span>
+            <span id="subtitle" data-typed-text="关于 AIGC"></span>
           
         </div>
 
@@ -200,8 +197,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-09-28 15:29" pubdate>
-          2022年9月28日 下午
+        <time datetime="2023-05-23 13:36" pubdate>
+          2023年5月23日 下午
         </time>
       </span>
     
@@ -212,7 +209,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3.1k 字
+          1.8k 字
         
       </span>
     
@@ -223,7 +220,7 @@
         
         
         
-          26 分钟
+          16 分钟
         
       </span>
     
@@ -262,159 +259,40 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">浅谈代码评审</h1>
+            <h1 style="display: none">关于 AIGC</h1>
             
             
               <div class="markdown-body">
                 
-                <p><a name="CuBQV"></a></p>
-<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>最近轮到我技术分享了，把分享内容发到博客吧</p>
-<p>对于开发同学而言，如何保证高质量代码，代码评审和重构是不可缺少的一环，通过代码评审，可以尽早的发现项目中存在的问题，也可以帮助同事之间的沟通与交流。<br><a name="uWBcC"></a></p>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
-<li>代码评审的好处</li>
-<li>code review 流程</li>
-<li>code review 的内容</li>
-<li>如何高效 code review</li>
-<li>总结<br><a name="bcd32cba"></a></li>
-</ul>
-<h2 id="代码评审的好处"><a href="#代码评审的好处" class="headerlink" title="代码评审的好处"></a>代码评审的好处</h2><ul>
-<li>提高代码质量</li>
-</ul>
-<blockquote>
-<ol>
-<li>对于同一段业务代码，由于看待问题的角度不同，评审者可能会比开发者更容易发现其中的问题，或是找到更有效的解决方案，共同维护团队的代码质量。</li>
-<li>提高代码质量和可维护性, 可读性等。</li>
-<li>查漏补缺, 发现一些潜在的问题点等。</li>
-<li>最佳实践, 能够更好更快的完成任务的方法。</li>
-<li>知识分享, Review 他人代码时, 其实也是一个学习的过程, 自己也会反思&amp;总结。</li>
-</ol>
-</blockquote>
-<ul>
-<li>开发者收获</li>
-</ul>
-<blockquote>
-<ol>
-<li>对需求的理解得到加深。</li>
-<li>表达能力得到加强。</li>
-<li>逻辑能力得到训练。</li>
-<li>心理承受能力得到提高。</li>
-</ol>
-</blockquote>
-<ul>
-<li>评审者收获</li>
-</ul>
-<blockquote>
-<p>通过有效的代码 Review，Owner 和 Reviewer 都将获得成长，在 Review 过程中参与人就具体的问题展开深入的讨论，无论是怎么写出整洁的代码、怎么更好地更全面地思考问题、怎么最佳地解决问题，参与人都可以互相取长补短，互相提高。通过具体代码实现进行的讨论往往是最深入和有效的，代码 Review 是开发者提高代码能力最重要的途径之一。<br><img src="https://s3.bmp.ovh/imgs/2022/09/28/a0b50d08ca6edf6a.png" srcset="/img/loading.gif" lazyload alt="image-20220928153159476"></p>
-</blockquote>
-<ul>
-<li>快速了解业务</li>
-</ul>
-<blockquote>
-<p>理想状态下，团队中的每个人都需要对整个项目的各个部分都很熟悉，当然，在项目很大时这是不现实的。通过代码审查至少可以让每个人了解更多的业务模块，同时也能达到人员互备的目的。<br>通过相互 CR，评审者也相当于参与了这次开发，相当于一种人力“备份”，当你休假或正在忙别的需求的时候，这时“备份”或许就能帮上忙了。</p>
-</blockquote>
-<p><a name="J2OwD"></a></p>
-<h2 id="code-review-流程说明"><a href="#code-review-流程说明" class="headerlink" title="code review 流程说明"></a>code review 流程说明</h2><p><img src="https://s3.bmp.ovh/imgs/2022/09/28/4dc72d3479b6ee5d.png" srcset="/img/loading.gif" lazyload alt="image-20220928153137793"><br><a name="Rntze"></a></p>
-<h2 id="code-review-内容"><a href="#code-review-内容" class="headerlink" title="code review 内容"></a>code review 内容</h2><p><a name="Gw5Ty"></a></p>
-<h3 id="业务逻辑"><a href="#业务逻辑" class="headerlink" title="业务逻辑"></a>业务逻辑</h3><p>这个是最基本的要求，如果连逻辑都无法实现功能，那也没有继续看的必要了。 首先我们看下需求文档，自己上手去系统熟悉下业务，然后看下设计文档，设计文档里头就会有数据库设计，接口罗列等，然后再开始看代码逻辑是不是对的上。<br><a name="MI7CN"></a></p>
-<h3 id="技术上"><a href="#技术上" class="headerlink" title="技术上"></a>技术上</h3><p><a name="vUWl6"></a></p>
-<h4 id="1-可读性"><a href="#1-可读性" class="headerlink" title="1. 可读性"></a>1. 可读性</h4><ul>
-<li><strong>代码格式</strong></li>
-</ul>
-<p>整体代码风格保持一致，可以让阅读者比较好的阅读环境</p>
-<ul>
-<li><strong>字段、变量、参数、方法、类的命名是否真实反映它们所代表的事物。</strong></li>
-<li><strong>注释</strong></li>
-</ul>
-<p>恰到好处的注释，能够帮助评审者更好地理解函数体和类。</p>
-<ul>
-<li><strong>方法逻辑简洁</strong></li>
-</ul>
-<p>方法要尽可能的简洁明了，这样后期维护可以通过方法名，或者方法上的备注，一眼看出这个方法是干嘛用的</p>
-<ul>
-<li><strong>提交记录清晰</strong>。<br><a name="Dahg5"></a></li>
-</ul>
-<h4 id="2-设计上"><a href="#2-设计上" class="headerlink" title="2. 设计上"></a>2. 设计上</h4><ul>
-<li>代码的位置是否正确？比如涉及订单的新代码是否在订单服务相关的位置？</li>
-<li>新代码是否重用了现存的代码？新代码是否可以被现有代码重用？新代码是否有重复代码？如果是的话，是否应该重构成一个更可被重用的模式，还是当前还可以接受？</li>
-<li><strong>表</strong></li>
-</ul>
-<p>数据表是很源头的地方，如果设计不好，后面会经常变动。表设计满足第三原则，尽量剥离各个表的依赖，然后主表跟附属表隔开。</p>
-<ul>
-<li><strong>接口设计</strong></li>
-</ul>
-<p>是否根据业务需求考虑接口设计保留一定扩展性<br><a name="FaB3l"></a></p>
-<h4 id="3-性能相关"><a href="#3-性能相关" class="headerlink" title="3. 性能相关"></a>3. 性能相关</h4><ul>
-<li>这段代码是否有硬性性能需求，是否满足？</li>
-<li>调用数据库</li>
-</ul>
-<p>如在循环中逐个调用数据库，一种情况就是加载ID列表之后，再在数据库中逐个查询ID对应的每条数据。</p>
-<ul>
-<li>不必要的网络调用</li>
-</ul>
-<p>就像数据库一样，远程服务有时也会被过度使用，原来只要一个远程调用就可实现的，或者可以使用批量或缓存防止昂贵网络调用的，却使用多个远程调用来实现。</p>
-<ul>
-<li>是否存在内存泄露 &amp; 无限增长问题？</li>
-</ul>
-<p>Java 中一些常见的原因会是：可变的静态字段，使用 ThreadLocal 变量和使用类加载器。 如果你看见新的变量不断被加到list或map中，你就要问下，这个list或map什么时候失效或清除无用数据。</p>
-<ul>
-<li>资源池是否配置正确？</li>
-</ul>
-<p>针对一个环境的最佳配置取决于很多因素，所以作为审查者你很难马上知道像数据库连接池大小是否正确等这些问题。但是有一些是你一眼就可以看出来的，像资源池是否太小（比如大小设置为1）或太大（如数百万线程）。</p>
-<ul>
-<li>代码是否使用了正确的适合多线程的数据结构</li>
-<li>代码是否正确使用锁？作为审查者你应该检查被审代码是否允许多个线程修改变量导致程序崩溃。代码可能需要同步、锁、原子变量来对代码块进行控制。<br><a name="xatwM"></a></li>
-</ul>
-<h4 id="4-其他"><a href="#4-其他" class="headerlink" title="4. 其他"></a>4. 其他</h4><h4 id="提交代码尽量保证为单一业务，代码不过多"><a href="#提交代码尽量保证为单一业务，代码不过多" class="headerlink" title="提交代码尽量保证为单一业务，代码不过多"></a>提交代码尽量保证为单一业务，代码不过多</h4><p><a name="J95hY"></a></p>
-<h5 id="代码级优化"><a href="#代码级优化" class="headerlink" title="代码级优化"></a>代码级优化</h5><p>对大部分并不是要构建低延时应用的机构来说，代码级优化往往是过早优化，所以首先要知道代码级优化是否必要。</p>
-<ul>
-<li>代码是否在不需要的地方使用同步或锁操作？如果代码始终运行在单线程中，锁往往是不必要的。</li>
-<li>代码是否可以使用原子变量替代锁或同步操作？</li>
-<li>代码是否使用了不必要的线程安全的数据结构？比如是否可以使用ArrayList替代Vector？</li>
-<li>代码是否在通用的操作中使用了低性能的数据结构？如在经常需要查找某个特定元素的地方使用链表。</li>
-<li>代码是否可以使用懒加载并从中获得性能提升？</li>
-<li>条件判断语句或其他逻辑是否可以将最高效的求值语句放在前面来使其他语句短路？</li>
-<li>代码是否存在许多字符串格式化？是否有方法可以使之更高效？<br><a name="ATone"></a></li>
-</ul>
-<h5 id="引用第三方类库"><a href="#引用第三方类库" class="headerlink" title="引用第三方类库"></a>引用第三方类库</h5><p>第三方类库是侵蚀系统安全并引起漏洞的一个途径。当审查代码时至少你要检查是否引入了新的依赖。<br><a name="HUQoB"></a></p>
-<h5 id="代码的运行是否应该被日志记录或监控？是否正确地使用？"><a href="#代码的运行是否应该被日志记录或监控？是否正确地使用？" class="headerlink" title="代码的运行是否应该被日志记录或监控？是否正确地使用？"></a>代码的运行是否应该被日志记录或监控？是否正确地使用？</h5><p>日志和监控需求因各个项目而不同，一般会关注这些：</p>
-<ul>
-<li>代码是否改变了数据（如增删改操作）？是否应该记录由谁何时改变了什么？</li>
-<li>代码是否涉及关键性能的部分？是否应该在性能监控系统中记录开始时间和结束时间？<br><a name="eIS0q"></a></li>
-</ul>
-<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h3 id="如何高效-code-review"><a href="#如何高效-code-review" class="headerlink" title="如何高效 code review"></a>如何高效 code review</h3><ul>
-<li>明确 code review 中事项的优先级</li>
-</ul>
-<p>从上面也能看出来 code review 要关心的事项还是很多的，所以安排事项优先级可以帮助处理主要问题。</p>
-<ul>
-<li>尽可能及时的进行 code review</li>
-</ul>
-<p>当你收到别人的 code review 邀请时，尽量第一时间就开始。因为这时我们的记忆是最清晰的，并且通常会        对你的及时反馈心怀感激，这种正面情绪对于 code review 是非常有帮助的。</p>
-<ul>
-<li>可以在 ide 开发环境中去 reivew</li>
-</ul>
-<p>一般我们 code review 是在 gitlab 中自己用眼睛去看，更好的方式是用 IDE 各种自动提示功能，各种强大的     IDE 完全可以成为我们的一大助力。</p>
-<ul>
-<li>不要吝啬你的赞扬</li>
-</ul>
-<p>每个人的内心深处都是期待被别人称赞的，因此在 code review 开始的时候不要老是揪着变量命名、代码重    复之类的问题。code review 中发现好代码，可以给作者一些赞美，这样他们也就会乐于接受你对于代码风格等方面的建议了——它能培养出强大而积极进取的团队  : )</p>
-<ul>
-<li>把程序跑起来</li>
-</ul>
-<p>把程序运行起来，亲自试一试，或许你会有一些和他们测试时不同的操作，发现一些他们遗漏的问题。</p>
-<ul>
-<li>明确 Coding 规则标准</li>
-</ul>
-<p>没错，和公司 kpi 一样，只有量化的指标，才能高效的执行。比如一个方法多少行算过长？如果总是参考上下文去判断，后面所有人就不会考虑这个问题了，因为太难判断，强制规定为一个方法最多不超过 80 行，code review 该事项则会事半功倍。</p>
-<ul>
-<li>善用各种自动化工具</li>
-</ul>
-<p>可以搭建好各种完善的自动化流程，如 CI/CD，代码质量测试工具：SonarQube等，把一些工作交给机器总是比人更高效的。</p>
-<h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>代码审查是针对代码，不是针对人。代码审查是一种学习，是表扬，是获得反馈，是一种十分社交性的活动。代码审查应该是有趣的，不要让它变的无聊。</p>
-<ul>
-<li>适当的激励机制更好的激发团队主动性。</li>
-<li>按照经验，code review 启动前期建议采用强制要求，否则很难有效开展起来。坚持一段时间待习惯养成后再考虑放开。</li>
-<li>code review 的方式有多种方式：强制&amp;非强制、线上交流&amp;线下会议、小片段&amp;大模块、事前&amp;事后、高频率&amp;低频率，建议根据团队水平因地制宜。</li>
-</ul>
+                <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>chatGPT 已经火出圈快半年了，作为一个行业相关者，当然也是一直在关注 着 AIGC 相关事物。</p>
+<h3 id="GitHub-Copilot-初见"><a href="#GitHub-Copilot-初见" class="headerlink" title="GitHub Copilot 初见"></a>GitHub Copilot 初见</h3><p>记得去年在 8 月份吧，逛 v2ex 看到可以申请测试体验，马上就上 github 申请了，半月过去就通过了，</p>
+<p>而且还有 idea 插件支持，作为一个 javaer，整一个就是欣喜若狂，马上安装试用。</p>
+<h4 id="体验"><a href="#体验" class="headerlink" title="体验"></a>体验</h4><p>上一秒你还觉得，卧槽它怎么知道我想这么写。</p>
+<p>下一秒你又不忍感叹，卧槽这个制杖怎么想这么写？</p>
+<p>当时感觉还是很震撼的，不过马上就能看到一些人在讨论微软 &amp; github 是否滥用开源代码训练他们的 ai 模型的版权问题。</p>
+<p>后面因为和 idea 自动提示冲突比较多 &amp;&amp; 微软要开始收费，就卸载插件了。</p>
+<h3 id="Stable-Diffusion-AI-绘画"><a href="#Stable-Diffusion-AI-绘画" class="headerlink" title="Stable Diffusion AI 绘画"></a>Stable Diffusion AI 绘画</h3><p>当时是逛推特，看到一组特别精美的 coser 照片，正当我感叹为何世上有如此完美的脸庞和身材。</p>
+<p>结果看到评论区有人提醒是 AI 绘画。然后仔细一看发现手和膝盖确实存在很多明显不自然处。</p>
+<h4 id="流行-amp-爆发"><a href="#流行-amp-爆发" class="headerlink" title="流行 &amp; 爆发"></a>流行 &amp; 爆发</h4><p>Stable Diffusion 开源后，AI绘画如雨后春笋般出来了，</p>
+<p>NovelAI 使用开源的数据训练出来的专门画二次元 anime 模型和 naifu 和被黑客泄露，</p>
+<p>这也成了后面一些二次元画师声讨 AI 绘画的起火点，也是针对版权问题进行疯狂拉扯。</p>
+<h3 id="chatGPT"><a href="#chatGPT" class="headerlink" title="chatGPT"></a>chatGPT</h3><p>没错还是在 v2ex 看到有人说 openai 推出了一个很智能的对话 ai，当时还没有火出圈，</p>
+<p>但是我本着什 么都要试一下的好奇心，用打码平台注册了个账号（<del>中国手机号不支持 + ip 不支持，属实是难受</del>）</p>
+<h4 id="体验-1"><a href="#体验-1" class="headerlink" title="体验"></a>体验</h4><p>相比于 github copilot，chatGPT 带给我震撼明显是更大的，因为 chatGPT 的泛用性明显比前一个更高.</p>
+<p>可以用于生成文本内容，例如新闻摘要，简化复杂的信息，以便用户快速了解最重要的信息。它也可</p>
+<p>以生成小说、故事等文本内容，并且具有很高的语言表现力和创意性。</p>
+<h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><p>当然 chatGPT 只是语言模型，距离强人工智能还很远，比如数学运算，一些逻辑推理题，</p>
+<p>它会比较明显的胡说八道。期待强人工智能到来的一天。</p>
+<h4 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h4><p>作为一个码农，chatGPT 的出现让我肯定也担忧，不过相较于悲观起来，</p>
+<p>我倒很期待后期计算机开发由 ai 主导的情况下会催化出哪些工作岗位，</p>
+<p>毕竟最好不要和 ai 直接竞争工作，而是把它当做工具成为那个操控者。</p>
+<hr>
+<h2 id="AI-美化"><a href="#AI-美化" class="headerlink" title="AI 美化"></a>AI 美化</h2><p>试着用 AI 美化一下文章，发现比自己文笔还是好的多的，😂</p>
+<hr>
+<p>在过去的几个月中，我一直在关注 AIGC 相关的事物，其中 chatGPT 和 Stable Diffusion AI 绘画 两个项目引起了我的注意。下面是我对这些项目的体验和思考：</p>
+<h3 id="GitHub-Copilot"><a href="#GitHub-Copilot" class="headerlink" title="GitHub Copilot"></a>GitHub Copilot</h3><p>我在去年 8 月份得知 GitHub Copilot，并且申请了测试体验。它是一个能够为编程提供提示和建议的人工智能工具。作为一名 Java 开发者，我非常高兴有这样一个工具来帮助我。当我使用它时，感觉它对我的编程经验有很大的帮助。不过，随着时间推移，一些人开始讨论微软和 GitHub 是否滥用开源代码来训练他们的 AI 模型的版权问题。此外，由于与 IntelliJ IDEA 的自动提示冲突比较多并且微软要开始收费，我最终卸载了该插件。</p>
+<h3 id="Stable-Diffusion-AI-绘画-1"><a href="#Stable-Diffusion-AI-绘画-1" class="headerlink" title="Stable Diffusion AI 绘画"></a>Stable Diffusion AI 绘画</h3><p>我在 Twitter 上看到了一组特别精美的 coser 照片，后来发现这些照片是由 AI 绘画生成的。然而，在这些照片中，手和膝盖等部位存在明显的不自然之处。Stable Diffusion AI 绘画 项目开源后，AI 绘画如雨后春笋般出现了。 NovelAI 使用开源的数据训练出了专门画二次元 anime 模型和 naifu，并被黑客泄露，这也成为了后面一些二次元画师声讨 AI 绘画的起点，也是针对版权问题进行疯狂拉扯。</p>
+<h3 id="chatGPT-1"><a href="#chatGPT-1" class="headerlink" title="chatGPT"></a>chatGPT</h3><p>我在 v2ex 上看到有人说 OpenAI 推出了一个很智能的对话 AI。虽然当时它还没有火起来，但我还是用打码平台注册了一个账号来体验。与 GitHub Copilot 相比，chatGPT 带给我更大的震撼。因为它的泛用性明显比前一个更高。它可以用于生成文本内容，例如新闻摘要，简化复杂的信息，以便用户快速了解最重要的信息。它也可以生成小说、故事等文本内容，并且具有很高的语言表现力和创意性。不过，chatGPT 只是语言模型，距离强人工智能还有很长的路要走，比如数学运算和一些逻辑推理题，它会胡说八道。作为一个码农，chatGPT 的出现让我肯定也担忧起来。但相较于悲观起来，我倒是很期待后期计算机开发由 AI 主导的情况下又会催化出哪些工作岗位。毕竟最好不要和 AI 直接竞争工作，而是把它当做工具成为那个操控者。</p>
 
                 
               </div>
@@ -427,11 +305,11 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
+        <a href="/tags/%E6%84%9F%E6%82%9F/">#感悟</a>
+      
         <a href="/tags/%E6%8A%80%E6%9C%AF/">#技术</a>
       
-        <a href="/tags/java/">#java</a>
-      
-        <a href="/tags/%E8%AE%BE%E8%AE%A1/">#设计</a>
+        <a href="/tags/ai/">#ai</a>
       
     </div>
   
@@ -443,8 +321,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>浅谈代码评审</div>
-      <div>http://xxpain.github.io/2022/09/28/code-review-1/</div>
+      <div>关于 AIGC</div>
+      <div>http://xxpain.github.io/2023/05/23/ai-think/</div>
     </div>
     <div class="license-meta">
       
@@ -456,7 +334,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年9月28日</div>
+          <div>2023年5月23日</div>
         </div>
       
       
@@ -486,18 +364,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/12/15/2022total/" title="2022 年总结">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">2022 年总结</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/08/23/book-2202-08/" title="22年中阅读书籍总结">
-                        <span class="hidden-mobile">22年中阅读书籍总结</span>
+                      <a href="/2023/03/29/Caffeine/" title="高性能本地缓存库 Caffeine">
+                        <span class="hidden-mobile">高性能本地缓存库 Caffeine</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

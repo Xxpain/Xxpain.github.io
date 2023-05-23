@@ -4,6 +4,29 @@
   
   
   <entry>
+    <title>关于 AIGC</title>
+    <link href="/2023/05/23/ai-think/"/>
+    <url>/2023/05/23/ai-think/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>chatGPT 已经火出圈快半年了，作为一个行业相关者，当然也是一直在关注 着 AIGC 相关事物。</p><h3 id="GitHub-Copilot-初见"><a href="#GitHub-Copilot-初见" class="headerlink" title="GitHub Copilot 初见"></a>GitHub Copilot 初见</h3><p>记得去年在 8 月份吧，逛 v2ex 看到可以申请测试体验，马上就上 github 申请了，半月过去就通过了，</p><p>而且还有 idea 插件支持，作为一个 javaer，整一个就是欣喜若狂，马上安装试用。</p><h4 id="体验"><a href="#体验" class="headerlink" title="体验"></a>体验</h4><p>上一秒你还觉得，卧槽它怎么知道我想这么写。</p><p>下一秒你又不忍感叹，卧槽这个制杖怎么想这么写？</p><p>当时感觉还是很震撼的，不过马上就能看到一些人在讨论微软 &amp; github 是否滥用开源代码训练他们的 ai 模型的版权问题。</p><p>后面因为和 idea 自动提示冲突比较多 &amp;&amp; 微软要开始收费，就卸载插件了。</p><h3 id="Stable-Diffusion-AI-绘画"><a href="#Stable-Diffusion-AI-绘画" class="headerlink" title="Stable Diffusion AI 绘画"></a>Stable Diffusion AI 绘画</h3><p>当时是逛推特，看到一组特别精美的 coser 照片，正当我感叹为何世上有如此完美的脸庞和身材。</p><p>结果看到评论区有人提醒是 AI 绘画。然后仔细一看发现手和膝盖确实存在很多明显不自然处。</p><h4 id="流行-amp-爆发"><a href="#流行-amp-爆发" class="headerlink" title="流行 &amp; 爆发"></a>流行 &amp; 爆发</h4><p>Stable Diffusion 开源后，AI绘画如雨后春笋般出来了，</p><p>NovelAI 使用开源的数据训练出来的专门画二次元 anime 模型和 naifu 和被黑客泄露，</p><p>这也成了后面一些二次元画师声讨 AI 绘画的起火点，也是针对版权问题进行疯狂拉扯。</p><h3 id="chatGPT"><a href="#chatGPT" class="headerlink" title="chatGPT"></a>chatGPT</h3><p>没错还是在 v2ex 看到有人说 openai 推出了一个很智能的对话 ai，当时还没有火出圈，</p><p>但是我本着什 么都要试一下的好奇心，用打码平台注册了个账号（<del>中国手机号不支持 + ip 不支持，属实是难受</del>）</p><h4 id="体验-1"><a href="#体验-1" class="headerlink" title="体验"></a>体验</h4><p>相比于 github copilot，chatGPT 带给我震撼明显是更大的，因为 chatGPT 的泛用性明显比前一个更高.</p><p>可以用于生成文本内容，例如新闻摘要，简化复杂的信息，以便用户快速了解最重要的信息。它也可</p><p>以生成小说、故事等文本内容，并且具有很高的语言表现力和创意性。</p><h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><p>当然 chatGPT 只是语言模型，距离强人工智能还很远，比如数学运算，一些逻辑推理题，</p><p>它会比较明显的胡说八道。期待强人工智能到来的一天。</p><h4 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h4><p>作为一个码农，chatGPT 的出现让我肯定也担忧，不过相较于悲观起来，</p><p>我倒很期待后期计算机开发由 ai 主导的情况下会催化出哪些工作岗位，</p><p>毕竟最好不要和 ai 直接竞争工作，而是把它当做工具成为那个操控者。</p><hr><h2 id="AI-美化"><a href="#AI-美化" class="headerlink" title="AI 美化"></a>AI 美化</h2><p>试着用 AI 美化一下文章，发现比自己文笔还是好的多的，😂</p><hr><p>在过去的几个月中，我一直在关注 AIGC 相关的事物，其中 chatGPT 和 Stable Diffusion AI 绘画 两个项目引起了我的注意。下面是我对这些项目的体验和思考：</p><h3 id="GitHub-Copilot"><a href="#GitHub-Copilot" class="headerlink" title="GitHub Copilot"></a>GitHub Copilot</h3><p>我在去年 8 月份得知 GitHub Copilot，并且申请了测试体验。它是一个能够为编程提供提示和建议的人工智能工具。作为一名 Java 开发者，我非常高兴有这样一个工具来帮助我。当我使用它时，感觉它对我的编程经验有很大的帮助。不过，随着时间推移，一些人开始讨论微软和 GitHub 是否滥用开源代码来训练他们的 AI 模型的版权问题。此外，由于与 IntelliJ IDEA 的自动提示冲突比较多并且微软要开始收费，我最终卸载了该插件。</p><h3 id="Stable-Diffusion-AI-绘画-1"><a href="#Stable-Diffusion-AI-绘画-1" class="headerlink" title="Stable Diffusion AI 绘画"></a>Stable Diffusion AI 绘画</h3><p>我在 Twitter 上看到了一组特别精美的 coser 照片，后来发现这些照片是由 AI 绘画生成的。然而，在这些照片中，手和膝盖等部位存在明显的不自然之处。Stable Diffusion AI 绘画 项目开源后，AI 绘画如雨后春笋般出现了。 NovelAI 使用开源的数据训练出了专门画二次元 anime 模型和 naifu，并被黑客泄露，这也成为了后面一些二次元画师声讨 AI 绘画的起点，也是针对版权问题进行疯狂拉扯。</p><h3 id="chatGPT-1"><a href="#chatGPT-1" class="headerlink" title="chatGPT"></a>chatGPT</h3><p>我在 v2ex 上看到有人说 OpenAI 推出了一个很智能的对话 AI。虽然当时它还没有火起来，但我还是用打码平台注册了一个账号来体验。与 GitHub Copilot 相比，chatGPT 带给我更大的震撼。因为它的泛用性明显比前一个更高。它可以用于生成文本内容，例如新闻摘要，简化复杂的信息，以便用户快速了解最重要的信息。它也可以生成小说、故事等文本内容，并且具有很高的语言表现力和创意性。不过，chatGPT 只是语言模型，距离强人工智能还有很长的路要走，比如数学运算和一些逻辑推理题，它会胡说八道。作为一个码农，chatGPT 的出现让我肯定也担忧起来。但相较于悲观起来，我倒是很期待后期计算机开发由 AI 主导的情况下又会催化出哪些工作岗位。毕竟最好不要和 AI 直接竞争工作，而是把它当做工具成为那个操控者。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>感悟</tag>
+      
+      <tag>技术</tag>
+      
+      <tag>ai</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>高性能本地缓存库 Caffeine</title>
     <link href="/2023/03/29/Caffeine/"/>
     <url>/2023/03/29/Caffeine/</url>
@@ -14,9 +37,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
     </tags>
     
@@ -58,9 +81,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
       <tag>设计</tag>
       
@@ -249,9 +272,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
     </tags>
     
@@ -270,9 +293,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
     </tags>
     
@@ -333,9 +356,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
       <tag>并发</tag>
       
@@ -356,9 +379,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
     </tags>
     
@@ -400,9 +423,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
       <tag>设计</tag>
       
@@ -423,9 +446,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
     </tags>
     
@@ -444,9 +467,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
     </tags>
     
@@ -465,9 +488,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
     </tags>
     
@@ -507,9 +530,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
       <tag>源码</tag>
       
@@ -530,9 +553,9 @@
     
     <tags>
       
-      <tag>java</tag>
-      
       <tag>技术</tag>
+      
+      <tag>java</tag>
       
       <tag>源码</tag>
       
