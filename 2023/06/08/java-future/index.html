@@ -24,7 +24,7 @@
 <meta property="og:description" content="引言作为一个 java 开发者自然是对 java 语言发展很关心的，虽然工作万年 jdk 8，但是新版本的 jdk 用到生产环境应该也不会远了。 jdk从 2017 年开始，JDK 版本更新策略从原来的每两年一个新版本，改为每六个月一个新版本，以快速验证新特性，推动 Java 的发展。所以 jdk 的版本号也是飞速的开始上涨，看着有要跟上 chrome 114.0.5735.110 版本号 的节奏">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-06-08T02:45:07.000Z">
-<meta property="article:modified_time" content="2023-06-08T04:15:18.689Z">
+<meta property="article:modified_time" content="2023-06-09T05:28:21.192Z">
 <meta property="article:author" content="无情小肥羊">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content="技术">
@@ -208,7 +208,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.9k 字
+          3.2k 字
         
       </span>
     
@@ -219,7 +219,7 @@
         
         
         
-          25 分钟
+          27 分钟
         
       </span>
     
@@ -266,6 +266,18 @@
                 <h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>作为一个 java 开发者自然是对 java 语言发展很关心的，虽然工作万年 jdk 8，但是新版本的 jdk 用到生产环境应该也不会远了。</p>
 <h2 id="jdk"><a href="#jdk" class="headerlink" title="jdk"></a>jdk</h2><p>从 2017 年开始，JDK 版本更新策略从原来的每两年一个新版本，改为每六个月一个新版本，以快速验证新特性，推动 Java 的发展。所以 jdk 的版本号也是飞速的开始上涨，<del>看着有要跟上 chrome 114.0.5735.110 版本号 的节奏</del></p>
 <p>因为 jdk 版本号刷的太快了，就主要介绍 lts 版本</p>
+<p>中间主要更新重点是这些项目</p>
+<p>Loom，Valhalla，Amber，Panama</p>
+<ul>
+<li><p>amber ，直译是琥珀，旨在提升 Java 的语言表现力，其中 var 关键字、text block 、record class 、sealed class 和模式匹配等，就是这个项目的产品，它们大多都以上线(released)。</p>
+</li>
+<li><p>loom ，直译是织布机，为 Java 引入虚拟线程（与协程进行区分），有点类似 goroutine ，完全由 JVM 管理和调度的用户态轻量级线程，完全与现有的 thread api 兼容。</p>
+</li>
+<li><p>panama ，取巴拿马运河沟通大西洋和太平洋之意，旨在提升 Java 调用外部语言 /接口等的能力，Java16 的向量化 API 源自于此。</p>
+</li>
+<li><p>valhalla ，直译是北欧神话中的英灵殿，为 Java 引入值类型和用户定义的基本量类型。</p>
+</li>
+</ul>
 <h3 id="jdk-11"><a href="#jdk-11" class="headerlink" title="jdk 11"></a>jdk 11</h3><h4 id="本地变量类型推断"><a href="#本地变量类型推断" class="headerlink" title="本地变量类型推断"></a>本地变量类型推断</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">// LocalVar.java</span><br><span class="hljs-keyword">import</span> java.util.Arrays;<br><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">LocalVar</span> </span>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>&#123;<br>        Arrays.asList(<span class="hljs-string">&quot;Java&quot;</span>, <span class="hljs-string">&quot;Python&quot;</span>, <span class="hljs-string">&quot;Ruby&quot;</span>)<br>            .forEach((<span class="hljs-keyword">var</span> s) -&gt; &#123;<br>                System.out.println(<span class="hljs-string">&quot;Hello, &quot;</span> + s);<br>            &#125;);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <p>局部变量类型推断就是左边的类型直接使用 <strong>var</strong> 定义，而不用写具体的类型，编译器能根据右边的表达式自动推断类型。</p>
